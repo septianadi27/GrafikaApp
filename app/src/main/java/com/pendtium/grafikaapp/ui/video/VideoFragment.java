@@ -1,4 +1,4 @@
-package com.pendtium.grafikaapp.ui.send;
+package com.pendtium.grafikaapp.ui.video;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.pendtium.grafikaapp.R;
 
-public class SendFragment extends Fragment {
+public class VideoFragment extends Fragment {
 
-    private SendViewModel sendViewModel;
+    private VideoViewModel videoViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        sendViewModel =
-                ViewModelProviders.of(this).get(SendViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_send, container, false);
-        final TextView textView = root.findViewById(R.id.text_send);
-        sendViewModel.getText().observe(this, new Observer<String>() {
+        videoViewModel =
+                ViewModelProviders.of(this).get(VideoViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_video, container, false);
+        final TextView textView = root.findViewById(R.id.text_video);
+        videoViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

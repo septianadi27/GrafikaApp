@@ -1,16 +1,16 @@
-package com.pendtium.grafikaapp.ui.slideshow;
+package com.pendtium.grafikaapp.ui.video;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class VideoViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public VideoViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("Video");
     }
 
     public LiveData<String> getText() {

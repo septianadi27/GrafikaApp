@@ -1,16 +1,16 @@
-package com.pendtium.grafikaapp.ui.tools;
+package com.pendtium.grafikaapp.ui.informasi;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ToolsViewModel extends ViewModel {
+public class InformasiViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ToolsViewModel() {
+    public InformasiViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is tools fragment");
+        mText.setValue("Informasi");
     }
 
     public LiveData<String> getText() {

@@ -7,37 +7,37 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.pendtium.grafikaapp.ui.home.HomeFragment"
+        android:name="com.pendtium.grafikaapp.ui.HalamanUtama.HalamanUtamaFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_halaman_utama" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.pendtium.grafikaapp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_pengantar"
+        android:name="com.pendtium.grafikaapp.ui.pengantar.PengantarFragment"
+        android:label="@string/menu_pengantar"
+        tools:layout="@layout/fragment_pengantar" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.pendtium.grafikaapp.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_video"
+        android:name="com.pendtium.grafikaapp.ui.video.VideoFragment"
+        android:label="@string/menu_video"
+        tools:layout="@layout/fragment_video" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.pendtium.grafikaapp.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_quiz"
+        android:name="com.pendtium.grafikaapp.ui.quiz.QuizFragment"
+        android:label="@string/menu_quiz"
+        tools:layout="@layout/fragment_quiz" />
 
     <fragment
-        android:id="@+id/nav_share"
-        android:name="com.pendtium.grafikaapp.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
+        android:id="@+id/nav_petunjuk_penggunaan"
+        android:name="com.pendtium.grafikaapp.ui.PetunjukPenggunaan.PetunjukPenggunaanFragment"
+        android:label="@string/menu_petunjuk_penggunaan"
+        tools:layout="@layout/fragment_petunjuk_penggunaan" />
 
     <fragment
-        android:id="@+id/nav_send"
-        android:name="com.pendtium.grafikaapp.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/nav_informasi"
+        android:name="com.pendtium.grafikaapp.ui.informasi.InformasiFragment"
+        android:label="@string/menu_informasi"
+        tools:layout="@layout/fragment_informasi" />
 </navigation>

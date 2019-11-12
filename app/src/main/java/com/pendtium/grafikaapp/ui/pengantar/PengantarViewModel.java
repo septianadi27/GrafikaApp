@@ -1,16 +1,16 @@
-package com.pendtium.grafikaapp.ui.home;
+package com.pendtium.grafikaapp.ui.pengantar;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class PengantarViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public PengantarViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("Pengantar");
     }
 
     public LiveData<String> getText() {

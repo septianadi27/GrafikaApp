@@ -1,4 +1,4 @@
-package com.pendtium.grafikaapp.ui.tools;
+package com.pendtium.grafikaapp.ui.informasi;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.pendtium.grafikaapp.R;
 
-public class ToolsFragment extends Fragment {
+public class InformasiFragment extends Fragment {
 
-    private ToolsViewModel toolsViewModel;
+    private InformasiViewModel informasiViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        toolsViewModel =
-                ViewModelProviders.of(this).get(ToolsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_tools, container, false);
-        final TextView textView = root.findViewById(R.id.text_tools);
-        toolsViewModel.getText().observe(this, new Observer<String>() {
+        informasiViewModel =
+                ViewModelProviders.of(this).get(InformasiViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_informasi, container, false);
+        final TextView textView = root.findViewById(R.id.text_informasi);
+        informasiViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

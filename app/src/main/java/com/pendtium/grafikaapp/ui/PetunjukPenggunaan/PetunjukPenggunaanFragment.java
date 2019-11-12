@@ -1,4 +1,4 @@
-package com.pendtium.grafikaapp.ui.home;
+package com.pendtium.grafikaapp.ui.PetunjukPenggunaan;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.pendtium.grafikaapp.R;
 
-public class HomeFragment extends Fragment {
+public class PetunjukPenggunaanFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private PetunjukPenggunaanViewModel petunjukPenggunaanViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(this, new Observer<String>() {
+        petunjukPenggunaanViewModel =
+                ViewModelProviders.of(this).get(PetunjukPenggunaanViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_petunjuk_penggunaan, container, false);
+        final TextView textView = root.findViewById(R.id.text_petunjuk_penggunaan);
+        petunjukPenggunaanViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
