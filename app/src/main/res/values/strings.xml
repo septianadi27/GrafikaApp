@@ -26,5 +26,11 @@
     <string name="string_opengl">string/opengl</string>
     <string name="informasi_pengembang">Informasi Pengembang</string>
     <string name="informasi_aplikasi">Informasi Aplikasi</string>
+    <string name="info">Septian Adi Pratama\n150533604474\nS1 Pendidikan Teknik Informatika 2015</string>
+    <string name="info1">Apabila terjadi error atau ingin memberikan saran pada aplikasi ini, anda dapat menghubungi kontak pengembang dibawah ini</string>
+    <string name="e_mail">e-mail</string>
+    <string name="whatsapp">whatsapp</string>
+    <string name="grafika_app">Grafika App</string>
+    <string name="informasi_version">Version 1.0.0\n\n\nAplikasi Sistem Tutor\nMatakuliah Grafika Komputer</string>
 
 </resources>

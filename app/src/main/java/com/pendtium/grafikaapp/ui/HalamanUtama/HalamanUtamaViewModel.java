@@ -10,11 +10,10 @@ public class HalamanUtamaViewModel extends ViewModel {
 
     public HalamanUtamaViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Halaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama" +
-                "\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama" +
-                "\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama" +
-                "\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama" +
-                "\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama");
+        mText.setValue("Halaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama" +
+                "\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama" +
+                "\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama" +
+                "\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama\n\n\nHalaman Utama");
     }
 
     public LiveData<String> getText() {
