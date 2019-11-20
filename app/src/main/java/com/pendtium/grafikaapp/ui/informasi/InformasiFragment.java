@@ -18,19 +18,10 @@ import com.pendtium.grafikaapp.R;
 
 public class InformasiFragment extends Fragment {
 
-    private InformasiViewModel informasiViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        informasiViewModel =
-                ViewModelProviders.of(this).get(InformasiViewModel.class);
         View root = inflater.inflate(R.layout.fragment_informasi, container, false);
-        informasiViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-            }
-        });
 
         TabLayout tabLayout =(TabLayout)root.findViewById(R.id.tabInformasi);
         ViewPager Pager =(ViewPager)root.findViewById(R.id.viewpagerInformasi);

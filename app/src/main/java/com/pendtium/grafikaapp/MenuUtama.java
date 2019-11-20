@@ -37,7 +37,7 @@ public class MenuUtama extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_pengantar, R.id.nav_video,
+                R.id.nav_home, R.id.nav_materi, R.id.nav_video,
                 R.id.nav_quiz, R.id.nav_petunjuk_penggunaan, R.id.nav_informasi)
                 .setDrawerLayout(drawer)
                 .build();

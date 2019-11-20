@@ -9,9 +9,9 @@
             android:icon="@drawable/ic_home"
             android:title="@string/halaman_utama" />
         <item
-            android:id="@+id/nav_pengantar"
+            android:id="@+id/nav_materi"
             android:icon="@drawable/ic_book"
-            android:title="@string/pengantar" />
+            android:title="@string/materi" />
         <item
             android:id="@+id/nav_video"
             android:icon="@drawable/ic_menu_slideshow"

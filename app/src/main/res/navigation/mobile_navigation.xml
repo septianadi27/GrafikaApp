@@ -12,10 +12,10 @@
         tools:layout="@layout/fragment_halaman_utama" />
 
     <fragment
-        android:id="@+id/nav_pengantar"
-        android:name="com.pendtium.grafikaapp.ui.pengantar.PengantarFragment"
-        android:label="@string/menu_pengantar"
-        tools:layout="@layout/fragment_pengantar" />
+        android:id="@+id/nav_materi"
+        android:name="com.pendtium.grafikaapp.ui.materi.MateriFragment"
+        android:label="@string/menu_materi"
+        tools:layout="@layout/fragment_materi" />
 
     <fragment
         android:id="@+id/nav_video"
