@@ -67,19 +67,19 @@ public class MateriFragment extends Fragment {
                 R.drawable.github
         };
 
-        Data data = new Data("Isi Materi 1 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[0]);
+        Data data = new Data("Isi Materi 1 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[0]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 2 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[1]);
+        data = new Data("Isi Materi 2 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[1]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 3 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[2]);
+        data = new Data("Isi Materi 3 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[2]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 4 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[3]);
+        data = new Data("Isi Materi 4 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[3]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 5 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[4]);
+        data = new Data("Isi Materi 5 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[4]);
         dataList.add(data);
 
         adapter.notifyDataSetChanged();

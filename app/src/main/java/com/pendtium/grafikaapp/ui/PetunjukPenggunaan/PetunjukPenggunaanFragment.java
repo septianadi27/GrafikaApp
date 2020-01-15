@@ -1,5 +1,6 @@
 package com.pendtium.grafikaapp.ui.PetunjukPenggunaan;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,20 +17,12 @@ import com.pendtium.grafikaapp.R;
 
 public class PetunjukPenggunaanFragment extends Fragment {
 
-    private PetunjukPenggunaanViewModel petunjukPenggunaanViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        petunjukPenggunaanViewModel =
-                ViewModelProviders.of(this).get(PetunjukPenggunaanViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_petunjuk_penggunaan, container, false);
-        final TextView textView = root.findViewById(R.id.text_petunjuk_penggunaan);
-        petunjukPenggunaanViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
-        return root;
+
+        Intent intent = new Intent(getActivity(), PetunjukIntroActivity.class);
+        startActivity(intent);
+
+        return inflater.inflate(R.layout.fragment_halaman_utama, container, false);
     }
 }
