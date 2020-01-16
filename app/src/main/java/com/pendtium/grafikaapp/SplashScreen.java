@@ -16,8 +16,8 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
 
-        int timeout = 4000; // make the activity visible for 4 seconds
-
+        //Set timer for splash screen timeout
+        int timeout = 1500; // make the activity visible for 1.5 seconds
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
 

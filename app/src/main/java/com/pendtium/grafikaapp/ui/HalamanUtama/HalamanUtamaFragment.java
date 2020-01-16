@@ -40,6 +40,7 @@ public class HalamanUtamaFragment extends Fragment implements View.OnClickListen
         return root;
     }
 
+    //set toggle for description
     public void onClick(final View v) {
         switch (v.getId()) {
             case R.id.laytujuan:

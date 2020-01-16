@@ -58,6 +58,8 @@ public class MateriFragment extends Fragment {
 
         return root;
     }
+
+    //set picture menu
     private void data(){
         int[] imageIcon = new int[]{
                 R.drawable.github,
@@ -67,6 +69,7 @@ public class MateriFragment extends Fragment {
                 R.drawable.github
         };
 
+        //set description menu
         Data data = new Data("Isi Materi 1 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[0]);
         dataList.add(data);
 

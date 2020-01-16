@@ -86,10 +86,6 @@ public class VideoFragment extends Fragment {
         video5.setVideoId("S84Fuo2rGoY");
         mYoutubeVideo.add(video5);
 
-        mYoutubeVideo.add(video1);
-        mYoutubeVideo.add(video2);
-        mYoutubeVideo.add(video3);
-        mYoutubeVideo.add(video4);
         return mYoutubeVideo;
     }
 }

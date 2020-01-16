@@ -13,6 +13,7 @@ import java.util.List;
 
 public class MateriRecyclerViewAdapter extends RecyclerView.Adapter<MateriRecyclerViewHolder> {
 
+    //set tittle
     String[] subMateri = {"Materi 1", "Materi 2", "Materi 3", "Materi 4", "Materi 5"};
     private List<Data> dataList;
     MateriFragment context;
@@ -23,6 +24,7 @@ public class MateriRecyclerViewAdapter extends RecyclerView.Adapter<MateriRecycl
         this.dataList = dataList;
     }
 
+    //set set holder from base
     @Override
     public MateriRecyclerViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.base_layout_materi, parent, false);

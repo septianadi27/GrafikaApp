@@ -35,8 +35,10 @@ public class FragmentInformasiPengembang extends Fragment {
         b1 = v.findViewById(R.id.buttonWhatsapp);
         b2 = v.findViewById(R.id.buttonMail);
 
+        //Listener for click button
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
+            //redirect to url
             public void onClick(View v) {
                 String number ="6285234158105&text=Saya%20ingin%20melaporkan%20error%20atau%20memberikan%20saran%20pada%20aplikasi%20GrafikaApp.";
                 String url = "https://api.whatsapp.com/send?phone="+number;

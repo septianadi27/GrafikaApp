@@ -23,6 +23,7 @@ public class InformasiFragment extends Fragment {
 
         View root = inflater.inflate(R.layout.fragment_informasi, container, false);
 
+        //set tab menu
         TabLayout tabLayout =(TabLayout)root.findViewById(R.id.tabInformasi);
         ViewPager Pager =(ViewPager)root.findViewById(R.id.viewpagerInformasi);
 

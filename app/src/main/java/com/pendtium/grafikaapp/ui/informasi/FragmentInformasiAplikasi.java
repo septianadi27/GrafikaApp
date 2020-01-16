@@ -34,8 +34,10 @@ public class FragmentInformasiAplikasi extends Fragment {
 
         b1 = v.findViewById(R.id.buttonGithub);
 
+        //Listener for click button
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
+            //redirect to url
             public void onClick(View v) {
                 String url = "https://github.com/septianadi27/GrafikaApp";
                 Intent i = new Intent(Intent.ACTION_VIEW);

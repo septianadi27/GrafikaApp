@@ -19,6 +19,7 @@ public class PetunjukIntroActivity extends IntroActivity {
         setButtonBackVisible(true);
         setButtonBackFunction(BUTTON_BACK_FUNCTION_BACK);
         setButtonNextVisible(true);
+        //Button cta is disabled
         setButtonCtaVisible(false);
         setButtonCtaTintMode(BUTTON_CTA_TINT_MODE_BACKGROUND);
         TypefaceSpan labelSpan = new TypefaceSpan(

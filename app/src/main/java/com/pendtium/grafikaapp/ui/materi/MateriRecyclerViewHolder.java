@@ -30,6 +30,7 @@ public class MateriRecyclerViewHolder extends RecyclerView.ViewHolder {
         icon = (ImageView) itemView.findViewById(R.id.icon);
         itemList = (LinearLayout) itemView.findViewById(R.id.Lmateri);
 
+        //Set listener on click menu
         itemList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
