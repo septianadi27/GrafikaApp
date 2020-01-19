@@ -29,8 +29,9 @@ public class HalamanUtamaFragment extends Fragment implements View.OnClickListen
 
         View root = inflater.inflate(R.layout.fragment_halaman_utama, container, false);
 
-        PhotoView photoView = (PhotoView) root.findViewById(R.id.ImageView01);
-        photoView.setImageResource(R.drawable.opengl);
+        //Zoom Image - Use com.github.chrisbanes.photoview.PhotoView i
+        //PhotoView photoView = (PhotoView) root.findViewById(R.id.ImageView01);
+        //photoView.setImageResource(R.drawable.opengl);
 
         mExpandLayout = (ExpandableRelativeLayout) root.findViewById(R.id.expandableTujuan);
         mExpandLayout1 = (ExpandableRelativeLayout) root.findViewById(R.id.expandableDefinisi);
