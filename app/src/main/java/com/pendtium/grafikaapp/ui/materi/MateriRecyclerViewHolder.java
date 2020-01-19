@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.pendtium.grafikaapp.R;
@@ -19,6 +20,7 @@ public class MateriRecyclerViewHolder extends RecyclerView.ViewHolder {
     public ImageView icon;
     public LinearLayout itemList;
     Context context;
+    Toolbar toolbar;
 
     public MateriRecyclerViewHolder(View itemView) {
         super(itemView);
@@ -29,35 +31,33 @@ public class MateriRecyclerViewHolder extends RecyclerView.ViewHolder {
         titleMateri = (TextView) itemView.findViewById(R.id.title);
         icon = (ImageView) itemView.findViewById(R.id.icon);
         itemList = (LinearLayout) itemView.findViewById(R.id.Lmateri);
+        toolbar = (Toolbar) itemView.findViewById(R.id.toolbar);
+
+
 
         //Set listener on click menu
         itemList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent();
+                Intent intent = new Intent();
                 switch (getAdapterPosition()){
                     case 0 :
-                        //intent = new Intent(context, bfs_Activity.class);
-                        Toast.makeText(context, "Materi 1", LENGTH_SHORT).show();
+                        intent = new Intent(context, Materi1TabsActivity.class);
                         break;
                     case 1 :
-                        //intent = new Intent(context, dfs_Activity.class);
-                        Toast.makeText(context, "Materi 2", LENGTH_SHORT).show();
+                        intent = new Intent(context, Materi1TabsActivity.class);
                         break;
                     case 2 :
-                        //intent = new Intent(context, gt_Activity.class);
-                        Toast.makeText(context, "Materi 3", LENGTH_SHORT).show();
+                        intent = new Intent(context, Materi1TabsActivity.class);
                         break;
                     case 3 :
-                        //intent = new Intent(context, hc_Activity.class);
-                        Toast.makeText(context, "Materi 4", LENGTH_SHORT).show();
+                        intent = new Intent(context, Materi1TabsActivity.class);
                         break;
                     case 4 :
-                        //intent = new Intent(context, bestfs_Activity.class);
-                        Toast.makeText(context, "Materi 5", LENGTH_SHORT).show();
+                        intent = new Intent(context, Materi1TabsActivity.class);
                         break;
                 }
-                //context.startActivity(intent);
+                context.startActivity(intent);
             }
         });
     }

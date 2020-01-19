@@ -29,6 +29,12 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ui.materi.Materi1TabsActivity"
+            android:label="Materi"
+            android:theme="@style/MyMaterialTheme"
+            android:parentActivityName=".ui.materi.Materi1TabsActivity">
+        </activity>
+        <activity
             android:name=".ui.PetunjukPenggunaan.PetunjukIntroActivity"
             android:theme="@style/Theme.Intro"/>
     </application>
