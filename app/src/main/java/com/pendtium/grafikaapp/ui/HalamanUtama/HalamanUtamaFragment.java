@@ -14,6 +14,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
+import com.github.chrisbanes.photoview.PhotoView;
 import com.pendtium.grafikaapp.R;
 
 public class HalamanUtamaFragment extends Fragment implements View.OnClickListener {
@@ -27,6 +28,9 @@ public class HalamanUtamaFragment extends Fragment implements View.OnClickListen
                              ViewGroup container, Bundle savedInstanceState) {
 
         View root = inflater.inflate(R.layout.fragment_halaman_utama, container, false);
+
+        PhotoView photoView = (PhotoView) root.findViewById(R.id.ImageView01);
+        photoView.setImageResource(R.drawable.opengl);
 
         mExpandLayout = (ExpandableRelativeLayout) root.findViewById(R.id.expandableTujuan);
         mExpandLayout1 = (ExpandableRelativeLayout) root.findViewById(R.id.expandableDefinisi);
