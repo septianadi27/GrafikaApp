@@ -61,9 +61,5 @@ public class PetunjukIntroActivity extends IntroActivity {
 
         autoplay(2500, INFINITE);
     }
-    @Override
-    public void onBackPressed() {
-        // Do Here what ever you want do on back press;
-    }
 
 }
