@@ -43,7 +43,7 @@ dependencies {
     implementation 'com.jakewharton:butterknife:10.2.1'
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
     //don't update or you will get error for this dependencies
-    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:9.0.1'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
 
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
