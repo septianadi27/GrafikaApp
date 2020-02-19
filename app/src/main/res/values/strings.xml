@@ -68,14 +68,14 @@
     <string name="materi1_sejarah_10">Mengembangkan teknik interaktif dengan sarana <i>keyboard</i> dan pena cahaya.</string>
     <string name="materi1_sejarah_11">Sejumlah projek penelitian dan produk <i>Computer Aided Design/Manufacturing</i> (CAD/CAM) telah muncul</string>
     <string name="materi1_sejarah_12">Fase Ketiga (1970)</string>
-    <string name="materi1_sejarah_13">Grafika Interaktif modern telah ditemukan oleh Ivan Sutherland.</string>
+    <string name="materi1_sejarah_13">Grafika komputer interaktif telah digunakan oleh sektor industri, pemerintah dan ilmuwan untuk memperbaiki kualitas desain produk secara cepat dan mudah.</string>
     <string name="materi1_sejarah_14">Fase Keempat (1980-1990)</string>
     <string name="materi1_sejarah_15">Penelitian pada dekade ini bertumpu pada penggabungan dan pengotomasasian pelbagi unsur desain dan pemodelan pejal (<i>solid modelling</i>).</string>
     <string name="materi1_sejarah_16">Teknologi hibrid mulai diperkenalkan. Teknologi ini berguna untuk penggabungan objek pejal dengan permukaan.</string>
 
     <!--    MATERI 1 - PERANAN & PENGGUNAAN-->
     <string name="materi1_peranan_judul">PERANAN &amp; PENGGUNAAN GRAFIKA KOMPUTER</string>
-    <string name="materi1_peranan_1">Grafika komputer telah menunjukkan kemajuan yang pesat dalam pengembangan berbagai aplikasi untuk menghasilkan gambar. Walaupun pada awalnya aplikasi dalam sains dan engineering memerlukan peralatan yang mahal, perkembangan teknologi komputer memberikan kemudahan penggunaan komputer sebagai alat bantu aplikasi grafik komputer interaktif.</string>
+    <string name="materi1_peranan_1">Grafika komputer telah menunjukkan kemajuan yang pesat dalam pengembangan berbagai aplikasi untuk menghasilkan gambar. Walaupun pada awalnya aplikasi dalam sains dan <i>engineering</i> memerlukan peralatan yang mahal, perkembangan teknologi komputer memberikan kemudahan penggunaan komputer sebagai alat bantu aplikasi grafik komputer interaktif.</string>
     <string name="materi1_peranan_2">Pada saat ini grafika komputer digunakan secara rutin dibidang ilmu pengetahuan, teknik, kedokteran, bisnis, industri, pemerintahan, seni, hiburan, pendidikan, periklanan, dan lain sebagainya.</string>
     <string name="materi1_peranan_3"><b>Peranan dan penggunaan grafika komputer terbagi dalam beberapa bidang, diantaranya yaitu :</b></string>
 

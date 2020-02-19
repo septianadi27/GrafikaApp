@@ -63,7 +63,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:layout_margin="10dp"
-                    android:contentDescription="@string/string_opengl"
                     android:paddingTop="10dp"
                     android:src="@drawable/apa_itu_grafika_komputer" />
 
@@ -97,9 +96,32 @@
                     android:layout_marginStart="18dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="80dp"
+                    android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
                     android:text="@string/materi1_pengertian_3"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="20dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text=" "
                     android:textColor="@color/black"
                     android:textSize="16sp" />
             </LinearLayout>

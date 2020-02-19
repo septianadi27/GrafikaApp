@@ -5,16 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
+
 
 import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
-import com.github.chrisbanes.photoview.PhotoView;
 import com.pendtium.grafikaapp.R;
 
 public class HalamanUtamaFragment extends Fragment implements View.OnClickListener {
@@ -28,10 +24,6 @@ public class HalamanUtamaFragment extends Fragment implements View.OnClickListen
                              ViewGroup container, Bundle savedInstanceState) {
 
         View root = inflater.inflate(R.layout.fragment_halaman_utama, container, false);
-
-        //Zoom Image - Use com.github.chrisbanes.photoview.PhotoView i
-        //PhotoView photoView = (PhotoView) root.findViewById(R.id.ImageView01);
-        //photoView.setImageResource(R.drawable.opengl);
 
         mExpandLayout = (ExpandableRelativeLayout) root.findViewById(R.id.expandableTujuan);
         mExpandLayout1 = (ExpandableRelativeLayout) root.findViewById(R.id.expandableDefinisi);
