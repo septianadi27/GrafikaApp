@@ -45,16 +45,16 @@ public class MateriRecyclerViewHolder extends RecyclerView.ViewHolder {
                         intent = new Intent(context, Materi1TabsActivity.class);
                         break;
                     case 1 :
-                        intent = new Intent(context, Materi1TabsActivity.class);
+                        intent = new Intent(context, Materi2TabsActivity.class);
                         break;
                     case 2 :
-                        intent = new Intent(context, Materi1TabsActivity.class);
+                        intent = new Intent(context, Materi2TabsActivity.class);
                         break;
                     case 3 :
-                        intent = new Intent(context, Materi1TabsActivity.class);
+                        intent = new Intent(context, Materi2TabsActivity.class);
                         break;
                     case 4 :
-                        intent = new Intent(context, Materi1TabsActivity.class);
+                        intent = new Intent(context, Materi2TabsActivity.class);
                         break;
                 }
                 context.startActivity(intent);

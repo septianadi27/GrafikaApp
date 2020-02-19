@@ -30,9 +30,15 @@
         </activity>
         <activity
             android:name=".ui.materi.Materi1TabsActivity"
-            android:label="Materi"
+            android:label="Pengantar Grafika Komputer"
             android:theme="@style/MyMaterialTheme"
             android:parentActivityName=".ui.materi.Materi1TabsActivity">
+        </activity>
+        <activity
+            android:name=".ui.materi.Materi2TabsActivity"
+            android:label="Materi"
+            android:theme="@style/MyMaterialTheme"
+            android:parentActivityName=".ui.materi.Materi2TabsActivity">
         </activity>
         <activity
             android:name=".ui.PetunjukPenggunaan.PetunjukIntroActivity"

@@ -70,7 +70,7 @@ public class MateriFragment extends Fragment {
         };
 
         //set description menu
-        Data data = new Data("Isi Materi 1 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[0]);
+        Data data = new Data("Berisi informasi seputar Pengantar Grafika Komputer", imageIcon[0]);
         dataList.add(data);
 
         data = new Data("Isi Materi 2 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[1]);

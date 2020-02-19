@@ -11,8 +11,6 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 import com.pendtium.grafikaapp.R;
-import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.TeknologiFragment;
-import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SistemFragment;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.PengertianFragment;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.PerananFragment;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SejarahFragment;
@@ -20,7 +18,7 @@ import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SejarahFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Materi1TabsActivity extends AppCompatActivity {
+public class Materi2TabsActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -28,7 +26,7 @@ public class Materi1TabsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scrollable_tabs);
+        setContentView(R.layout.activity_simple_tabs);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -42,12 +40,17 @@ public class Materi1TabsActivity extends AppCompatActivity {
     }
 
     private void setupViewPager(ViewPager viewPager) {
-        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFrag(new PengertianFragment(), "Pengertian");
-        adapter.addFrag(new SejarahFragment(), "Sejarah");
-        adapter.addFrag(new PerananFragment(), "Peranan & Penggunaan");
-        adapter.addFrag(new SistemFragment(), "Sistem");
-        adapter.addFrag(new TeknologiFragment(), "Teknologi Display");
+        Materi2TabsActivity.ViewPagerAdapter adapter = new Materi2TabsActivity.ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFrag(new PengertianFragment(), "ONE");
+        adapter.addFrag(new SejarahFragment(), "TWO");
+        adapter.addFrag(new PerananFragment(), "THREE");
+        //adapter.addFrag(new SistemFragment(), "FOUR");
+        //adapter.addFrag(new TeknologiFragment(), "FIVE");
+        //adapter.addFrag(new SixFragment(), "SIX");
+        //adapter.addFrag(new SevenFragment(), "SEVEN");
+        //adapter.addFrag(new EightFragment(), "EIGHT");
+        //adapter.addFrag(new NineFragment(), "NINE");
+        //adapter.addFrag(new TenFragment(), "TEN");
         viewPager.setAdapter(adapter);
     }
 

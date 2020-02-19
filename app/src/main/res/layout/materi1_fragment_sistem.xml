@@ -2,12 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pendtium.grafikaapp.ui.materi.Materi1Fragment.ThreeFragment">
+    tools:context="com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SistemFragment"
+    android:background="@color/background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Three"
+        android:text="Four"
         android:textSize="40sp"
         android:textStyle="bold"
         android:layout_centerInParent="true"/>

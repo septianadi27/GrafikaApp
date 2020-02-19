@@ -23,9 +23,9 @@ public class SplashScreen extends AppCompatActivity {
 
             @Override
             public void run() {
+                Intent intent = new Intent(SplashScreen.this, MenuUtama.class);
+                startActivity(intent);
                 finish();
-                Intent homepage = new Intent(SplashScreen.this, MenuUtama.class);
-                startActivity(homepage);
             }
         }, timeout);
     }
