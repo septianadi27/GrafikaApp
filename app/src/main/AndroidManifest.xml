@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.pendtium.grafikaapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -22,7 +23,8 @@
         </activity>
         <activity
             android:name=".SplashScreen"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -36,9 +38,33 @@
         </activity>
         <activity
             android:name=".ui.materi.Materi2TabsActivity"
-            android:label="Materi"
+            android:label="Primitive Object"
             android:theme="@style/MyMaterialTheme"
             android:parentActivityName=".ui.materi.Materi2TabsActivity">
+        </activity>
+        <activity
+            android:name=".ui.materi.Materi3TabsActivity"
+            android:label="Objek 2 Dimensi"
+            android:theme="@style/MyMaterialTheme"
+            android:parentActivityName=".ui.materi.Materi3TabsActivity">
+        </activity>
+        <activity
+            android:name=".ui.materi.Materi4TabsActivity"
+            android:label="Transformasi"
+            android:theme="@style/MyMaterialTheme"
+            android:parentActivityName=".ui.materi.Materi4TabsActivity">
+        </activity>
+        <activity
+            android:name=".ui.materi.Materi5TabsActivity"
+            android:label="Interaksi"
+            android:theme="@style/MyMaterialTheme"
+            android:parentActivityName=".ui.materi.Materi5TabsActivity">
+        </activity>
+        <activity
+            android:name=".ui.materi.Materi6TabsActivity"
+            android:label="Objek 3 Dimensi"
+            android:theme="@style/MyMaterialTheme"
+            android:parentActivityName=".ui.materi.Materi6TabsActivity">
         </activity>
         <activity
             android:name=".ui.PetunjukPenggunaan.PetunjukIntroActivity"

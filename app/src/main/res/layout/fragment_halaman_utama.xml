@@ -31,233 +31,6 @@
                 android:contentDescription="@string/string_opengl" />
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp"
-                android:layout_marginBottom="2dp"
-                android:orientation="horizontal"
-                android:background="@drawable/input2">
-                <ImageView
-                    android:id="@+id/ic_pengantar"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:src="@drawable/library_books"
-                    android:tint="@color/white"
-                    tools:ignore="ContentDescription" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Pengantar"
-                    android:gravity="center_vertical"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp"
-                android:layout_marginBottom="4dp"
-                android:orientation="horizontal"
-                android:visibility="visible"
-                android:background="@drawable/input4">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="6dp"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginEnd="18dp"
-                    android:text="@string/text_pengantar"
-                    android:textSize="16sp"
-                    android:textColor="@color/black"
-                    android:lineSpacingMultiplier="1.25"
-                    android:layout_marginBottom="8dp" />
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/laytujuan"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp"
-                android:layout_marginBottom="2dp"
-                android:orientation="horizontal"
-                android:background="@drawable/input2">
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:src="@drawable/collections_bookmark"
-                    android:tint="@color/white"
-                    tools:ignore="ContentDescription" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:text="Tujuan"
-                    android:gravity="center_vertical"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:textSize="18sp"
-                    android:layout_weight="0.2"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginEnd="6dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginBottom="4dp"
-                    android:src="@drawable/ic_expansion"
-                    tools:ignore="ContentDescription" />
-            </LinearLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
-                    android:id="@+id/expandableTujuan"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:ael_expanded="false"
-                    android:layout_below="@id/laytujuan"
-                    app:ael_duration="500"
-                    app:ael_interpolator="bounce"
-                    app:ael_orientation="vertical"
-                    tools:ignore="NotSibling">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="2dp"
-                        android:layout_marginRight="2dp"
-                        android:layout_marginBottom="4dp"
-                        android:orientation="vertical"
-                        android:visibility="visible"
-                        android:background="@drawable/input4">
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/tujuan"
-                            android:textColor="@color/black"
-                            android:lineSpacingMultiplier="1.25"
-                            android:layout_marginTop="4dp"
-                            android:textSize="16sp"
-                            android:layout_marginStart="18dp"
-                            android:layout_marginEnd="8dp"
-                            android:layout_marginBottom="4dp"/>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1."
-                                android:textColor="@color/black"
-                                android:layout_marginStart="20dp"/>
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="@string/tujuan1"
-                                android:textColor="@color/black"
-                                android:textSize="16sp"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginEnd="8dp"
-                                android:layout_marginBottom="2dp"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="2."
-                                android:textColor="@color/black"
-                                android:layout_marginStart="20dp"/>
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="@string/tujuan2"
-                                android:textColor="@color/black"
-                                android:textSize="16sp"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginEnd="8dp"
-                                android:layout_marginBottom="2dp"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="3."
-                                android:textColor="@color/black"
-                                android:layout_marginStart="20dp"/>
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="@string/tujuan3"
-                                android:textSize="16sp"
-                                android:textColor="@color/black"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginEnd="8dp"
-                                android:layout_marginBottom="2dp"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4."
-                                android:textColor="@color/black"
-                                android:layout_marginStart="20dp"/>
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="@string/tujuan4"
-                                android:textColor="@color/black"
-                                android:textSize="16sp"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginEnd="8dp"
-                                android:layout_marginBottom="2dp"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="5."
-                                android:textColor="@color/black"
-                                android:layout_marginStart="20dp"/>
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="@string/tujuan5"
-                                android:textSize="16sp"
-                                android:textColor="@color/black"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginEnd="8dp"
-                                android:layout_marginBottom="18dp"/>
-                        </LinearLayout>
-                    </LinearLayout>
-                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
-            </RelativeLayout>
-            <LinearLayout
                 android:id="@+id/layDefinisi"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -306,7 +79,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_below="@id/laytujuan"
-                    app:ael_expanded="false"
+                    app:ael_expanded="true"
                     app:ael_duration="500"
                     app:ael_interpolator="bounce"
                     app:ael_orientation="vertical"
@@ -325,11 +98,221 @@
                             android:layout_marginTop="6dp"
                             android:layout_marginStart="18dp"
                             android:layout_marginEnd="18dp"
+                            android:text="@string/text_pengantar"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:lineSpacingMultiplier="1.25"
+                            android:layout_marginBottom="8dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginEnd="18dp"
                             android:text="@string/text_definisi"
                             android:textSize="16sp"
                             android:textColor="@color/black"
                             android:lineSpacingMultiplier="1.25"
                             android:layout_marginBottom="8dp" />
+                    </LinearLayout>
+                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/laytujuan"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/input2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/collections_bookmark"
+                    android:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="0.2"
+                    android:gravity="center_vertical"
+                    android:text="Tujuan"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/ic_expansion"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                    android:id="@+id/expandableTujuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/laytujuan"
+                    app:ael_duration="500"
+                    app:ael_expanded="false"
+                    app:ael_interpolator="bounce"
+                    app:ael_orientation="vertical"
+                    tools:ignore="NotSibling">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@drawable/input4"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="4dp"
+                            android:lineSpacingMultiplier="1.25"
+                            android:text="@string/tujuan"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:text="1."
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="2dp"
+                                android:text="@string/tujuan1"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:text="2."
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="2dp"
+                                android:text="@string/tujuan2"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:text="3."
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="2dp"
+                                android:text="@string/tujuan3"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:text="4."
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="2dp"
+                                android:text="@string/tujuan4"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:text="5."
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="18dp"
+                                android:text="@string/tujuan5"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
                     </LinearLayout>
                 </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
             </RelativeLayout>

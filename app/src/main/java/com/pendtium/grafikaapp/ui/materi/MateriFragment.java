@@ -66,23 +66,27 @@ public class MateriFragment extends Fragment {
                 R.drawable.splash,
                 R.drawable.splash,
                 R.drawable.splash,
+                R.drawable.splash,
                 R.drawable.splash
         };
 
         //set description menu
-        Data data = new Data("Berisi informasi seputar Pengantar Grafika Komputer", imageIcon[0]);
+        Data data = new Data("Berisi informasi seputar Pengantar Grafika Komputer ...", imageIcon[0]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 2 lorem ipsum dimsum lorem ipsum dimsum dimsum", imageIcon[1]);
+        data = new Data("Primitif objek merupakan salah satu subbab dari grafika komputer ...", imageIcon[1]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 3 lorem ipsum dimsum lorem ipsum dimsum dimsum", imageIcon[2]);
+        data = new Data("Grafik komputer 2 dimensi biasa disebut 2D adalah bentuk dari benda ...", imageIcon[2]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 4 lorem ipsum dimsum lorem ipsum dimsum dimsum", imageIcon[3]);
+        data = new Data(" Pemodifikasian objek dilakukan dengan operasi transformasi ...", imageIcon[3]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 5 lorem ipsum dimsum lorem ipsum dimsum dimsum", imageIcon[4]);
+        data = new Data("Interaksi dapat dilakukan dengan berbagai cara, diantaranya  ... ", imageIcon[4]);
+        dataList.add(data);
+
+        data = new Data("Grafik komputer 3 dimensi biasa disebut 3D adalah bentuk dari benda ...", imageIcon[5]);
         dataList.add(data);
 
         adapter.notifyDataSetChanged();

@@ -39,7 +39,7 @@
 <!-- Text Isian Materi-->
 <!--    HALAMAN UTAMA-->
     <string name="text_pengantar">Grafika komputer adalah suatu bidang yang mempelajari bagaimana menghasilkan suatu gambar menggunakan komputer. Sehingga di dalam grafika komputer akan dibahas teknik-teknik menggambar.</string>
-    <string name="text_definisi">Grafika Komputer merupakan studi yang berkaitan dengan pembuatan dan manipulasi gambar (visual) secara digital. Bentuk sederhana dari grafika komputer adalah grafika komputer 2D yang kemudian berkembang menjadi grafika komputer 3D, pemrosesan citra (image processing), dan pengenalan pola (pattern recognition). Grafika komputer sering dikenal juga dengan istilah visualisasi data.</string>
+    <string name="text_definisi">Grafika Komputer  berkaitan dengan pembuatan dan manipulasi gambar (visual) secara digital. Bentuk sederhana dari grafika komputer adalah grafika komputer 2D yang kemudian berkembang menjadi grafika komputer 3D, pemrosesan citra (image processing), dan pengenalan pola (pattern recognition). Grafika komputer sering dikenal juga dengan istilah visualisasi data.</string>
     <string name="tujuan">Setelah mengikuti kegiatan pembelajaran matakuliah grafika komputer, mahasiswa diharapkan :</string>
     <string name="tujuan1">Mengetahui apa itu grafika komputer.</string>
     <string name="tujuan2">Mampu membandingkan macam-macam grafik.</string>
