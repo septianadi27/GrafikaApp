@@ -62,27 +62,27 @@ public class MateriFragment extends Fragment {
     //set picture menu
     private void data(){
         int[] imageIcon = new int[]{
-                R.drawable.github,
-                R.drawable.github,
-                R.drawable.github,
-                R.drawable.github,
-                R.drawable.github
+                R.drawable.splash,
+                R.drawable.splash,
+                R.drawable.splash,
+                R.drawable.splash,
+                R.drawable.splash
         };
 
         //set description menu
         Data data = new Data("Berisi informasi seputar Pengantar Grafika Komputer", imageIcon[0]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 2 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[1]);
+        data = new Data("Isi Materi 2 lorem ipsum dimsum lorem ipsum dimsum dimsum", imageIcon[1]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 3 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[2]);
+        data = new Data("Isi Materi 3 lorem ipsum dimsum lorem ipsum dimsum dimsum", imageIcon[2]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 4 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[3]);
+        data = new Data("Isi Materi 4 lorem ipsum dimsum lorem ipsum dimsum dimsum", imageIcon[3]);
         dataList.add(data);
 
-        data = new Data("Isi Materi 5 lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum lorem ipsum dimsum", imageIcon[4]);
+        data = new Data("Isi Materi 5 lorem ipsum dimsum lorem ipsum dimsum dimsum", imageIcon[4]);
         dataList.add(data);
 
         adapter.notifyDataSetChanged();

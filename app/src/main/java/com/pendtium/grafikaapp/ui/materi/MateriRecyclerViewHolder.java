@@ -13,8 +13,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.pendtium.grafikaapp.R;
 
-import static android.widget.Toast.LENGTH_SHORT;
-
 public class MateriRecyclerViewHolder extends RecyclerView.ViewHolder {
     public TextView materi, titleMateri, deskripsi;
     public ImageView icon;

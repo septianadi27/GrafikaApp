@@ -65,12 +65,13 @@
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
                     android:paddingTop="20dp"
-                    android:src="@drawable/autocad" />
+                    android:src="@drawable/autocad"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gambar autocad 2020"
+                    android:text="@string/gambar_1"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
@@ -98,18 +99,6 @@
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
                     android:text="@string/materi1_peranan_2"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="8dp"
-                    android:lineSpacingMultiplier="1.25"
-                    android:text="@string/materi1_peranan_3"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
@@ -187,7 +176,7 @@
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Dalam proses desain grafika komputer terutama digunakan pada sistem engineering dan arsitektur. Pada umumnya Computer Aided Design (CAD) digunakan untuk pembuatan desain mobil, bangunan, pesawat terbang, kapal, komputer, tekstil, dan lain-lain."
+                            android:text="@string/materi1_peranan_3"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
                         <TextView
@@ -198,10 +187,7 @@
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Pada beberapa aplikasi desain, objek ditampilkan dalam bentuk wireframe, dimana
-diperlihatkan keseluruhan bentuk, dengan bentuk internal dari objek tersebut. Penggunaan
-wireframe bermanfaat bagi designer untuk melihat isi dari objek tersebut. Contoh perangkat
-lunak yang digunakan yaitu AutoCAD, 3D Studio Max, dan Maya."
+                            android:text="@string/materi1_peranan_4"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
                         <ImageView
@@ -213,7 +199,7 @@ lunak yang digunakan yaitu AutoCAD, 3D Studio Max, dan Maya."
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Gambar 3ds Max"
+                            android:text="@string/gambar_2"
                             android:textAlignment="center"
                             android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
@@ -294,10 +280,7 @@ lunak yang digunakan yaitu AutoCAD, 3D Studio Max, dan Maya."
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Bidang lain yang berhubungan dengan grafika komputer adalah grafik presentasi yang
-dapat berupa cetakan, slide, dan transparansi. Grafik presentasi biasanya digunakan untuk
-melengkapi laporan keuangan, sains, data ekonomi, dan lain-lain. Bentuk grafik presentasi
-tersebut adalah chart, bar chart, pie chart, dan lain-lain."
+                            android:text="@string/materi1_peranan_5"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
                         <ImageView
@@ -309,7 +292,7 @@ tersebut adalah chart, bar chart, pie chart, dan lain-lain."
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Gambar grafik presentasi"
+                            android:text="@string/gambar_3"
                             android:textAlignment="center"
                             android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
@@ -390,9 +373,7 @@ tersebut adalah chart, bar chart, pie chart, dan lain-lain."
                         android:layout_marginEnd="18dp"
                         android:layout_marginBottom="8dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="Metode grafika komputer digunakan dalam aplikasi commercial art dan fine art. Seniman
-menggunakan bermacam-macam perangkat lunak grafik, dan kadang-kadang dilengkapi
-dengan perangkat keras khusus."
+                        android:text="@string/materi1_peranan_6"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                         <TextView
@@ -403,8 +384,7 @@ dengan perangkat keras khusus."
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Contoh perangkat lunak yang digunakan yaitu Corel Draw, Adobe Photoshop, Adobe
-Ilustrator, Macromedia, dan sebagainya."
+                            android:text="@string/materi1_peranan_7"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
                         <ImageView
@@ -416,7 +396,7 @@ Ilustrator, Macromedia, dan sebagainya."
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Gambar adobe photoshop"
+                            android:text="@string/gambar_4"
                             android:textAlignment="center"
                             android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
@@ -497,13 +477,7 @@ Ilustrator, Macromedia, dan sebagainya."
                         android:layout_marginEnd="18dp"
                         android:layout_marginBottom="8dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="Pada pembuatan film layar lebar, komputer banyak digunakan untuk menunjang proses
-pemodelan, visualisasi, dan editing. Misalnya dalam proses special effect, film animasi. “Toy
-Story” (1995), merupakan film pertama yang diproduksi oleh The Walt Disney Company
-secara penuh menggunakan teknologi komputer dan ilmu Grafik komputer. Sejak saat itu,
-mulailah studio animasi digital lain untuk membuat film serupa, diantaranya Blue Sky
-Studios (Fox), DNA Productions (Paramount Pictures and Warner Bros), Onation Studios
-(Paramount Pictures), Sony Pictures Animation (Columbia Pictures) dan DreamWorks."
+                        android:text="@string/materi1_peranan_8"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                         <ImageView
@@ -515,7 +489,7 @@ Studios (Fox), DNA Productions (Paramount Pictures and Warner Bros), Onation Stu
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Gambar Toy Story, salah satu contoh film animasi"
+                            android:text="@string/gambar_5"
                             android:textAlignment="center"
                             android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
@@ -529,10 +503,7 @@ Studios (Fox), DNA Productions (Paramount Pictures and Warner Bros), Onation Stu
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Kunci pembuatan film-film ini adalah sebuah aplikasi komputer grafis yang disebut
-Computer Generated Imagery (CGI). Dengan perangkat lunak ini bisa diciptakan gambar 3D
-lengkap dengan berbagai efek yang dikehendaki. Beberapa software CGI populer antara lain
-Art of Illusion (bisa di-download di sourceforce.net), Maya, Blender, dan lain-lain"
+                            android:text="@string/materi1_peranan_9"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
                         <ImageView
@@ -544,42 +515,13 @@ Art of Illusion (bisa di-download di sourceforce.net), Maya, Blender, dan lain-l
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Gambar Animasi CGI"
+                            android:text="@string/gambar_6"
                             android:textAlignment="center"
                             android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
                             android:textSize="12sp"
                             />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="18dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="18dp"
-                            android:layout_marginBottom="8dp"
-                            android:lineSpacingMultiplier="1.25"
-                            android:text="Salah satu efek CGI dalam film yang kurang dikenal, namun penting, adalah digital
-grading. Dengan efek ini warna asli hasil shooting direvisi menggunakan perangkat lunak
-untuk memberikan kesan dan nuansa sesuai dengan skenario. Contohnya suasana dalam dunia sebuah film “The Lord of The Rings: The Two Tower”. tidak menggunakan trik kosmetik, tetapi dengan polesan komputer."
-                            android:textColor="@color/black"
-                            android:textSize="16sp" />
 
-                        <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="250dp"
-                            android:layout_margin="10dp"
-                            android:src="@drawable/digital_grading"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Gambar digital grading"
-                            android:textAlignment="center"
-                            android:layout_marginBottom="20dp"
-                            android:textColor="@color/black"
-                            android:textSize="12sp"
-                            />
                     </LinearLayout>
                 </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
             </RelativeLayout>
@@ -655,7 +597,7 @@ untuk memberikan kesan dan nuansa sesuai dengan skenario. Contohnya suasana dala
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Grafika komputer dalam tayangan televisi juga dapat berupa iklan, tampilan tiap acara, dan lainnya. Salah satu cotohnya adalah pembuatan karakter pada serial televisi doraemon."
+                            android:text="@string/materi1_peranan_10"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
                         <ImageView
@@ -667,7 +609,7 @@ untuk memberikan kesan dan nuansa sesuai dengan skenario. Contohnya suasana dala
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Gambar ekspresi wajah nobita pada serial tv doraemon"
+                            android:text="@string/gambar_7"
                             android:textAlignment="center"
                             android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
@@ -748,9 +690,7 @@ untuk memberikan kesan dan nuansa sesuai dengan skenario. Contohnya suasana dala
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Produksi video musik tidak terlepas dari grafika komputer, diantaranya pembuatan
-promosi, cover atau kemasan video, serta animasi yang mengiringi setiap lagu. Proses editing
-video dan audio dilakukan dengan menggunakan komputer."
+                            android:text="@string/materi1_peranan_11"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
                         <ImageView
@@ -762,7 +702,7 @@ video dan audio dilakukan dengan menggunakan komputer."
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Gambar cover album westlife"
+                            android:text="@string/gambar_8"
                             android:textAlignment="center"
                             android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
@@ -843,14 +783,28 @@ video dan audio dilakukan dengan menggunakan komputer."
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Berbagai game dapat dijalankan pada komputer PC, video player dengan monitor TV,
-dan ada yang menggunakan perangkat keras khusus. Alat input interaktif seperti mouse dan
-joystick diperlukan untuk aplikasi game."
+                            android:text="@string/materi1_peranan_12"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/assassins" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/gambar_9"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="20dp"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            />
                     </LinearLayout>
                 </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
             </RelativeLayout>
+
             <LinearLayout
                 android:id="@+id/lay8"
                 android:layout_width="match_parent"
@@ -873,7 +827,7 @@ joystick diperlukan untuk aplikasi game."
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="Pendidikan"
+                    android:text="Visualisasi"
                     android:gravity="center_vertical"
                     android:textStyle="bold"
                     android:textColor="@color/white"
@@ -923,11 +877,25 @@ joystick diperlukan untuk aplikasi game."
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Komputer sebagai alat bantu pendidikan (Computer Assisted Instruction) sudah cukup
-dikenal. Komputer juga digunakan pada aplikasi-aplikasi bukan pengajaran untuk menunjang
-sistem pendidikan, seperti mengolah data, mencatat kehadiran, dan sebagainya."
+                            android:text="@string/materi1_peranan_13"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/augmented_reality" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/gambar_10"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="20dp"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            />
+
                     </LinearLayout>
                 </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
             </RelativeLayout>
@@ -953,7 +921,7 @@ sistem pendidikan, seperti mengolah data, mencatat kehadiran, dan sebagainya."
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="Visualisasi"
+                    android:text="Image Processing"
                     android:gravity="center_vertical"
                     android:textStyle="bold"
                     android:textColor="@color/white"
@@ -1003,10 +971,7 @@ sistem pendidikan, seperti mengolah data, mencatat kehadiran, dan sebagainya."
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Ilmuwan, ahli kedokteran, analis bisnis, dan lain-lain sering menggunakan banyak
-informasi suatu masalah dalam mempelajari perilaku proses tertentu. Informasi tersebut berisi
-ribuan data untuk memberikan gambaran hasil suatu evaluasi. Data tersebut diproses sehingga
-mendapatkan hasil dalam bentk visual."
+                            android:text="@string/materi1_peranan_14"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
                         <TextView
@@ -1015,30 +980,70 @@ mendapatkan hasil dalam bentk visual."
                             android:layout_marginStart="18dp"
                             android:layout_marginTop="8dp"
                             android:layout_marginEnd="18dp"
-                            android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Virtual Reality adalah lingkungan virtual yang seakan-akan begitu nyata dimana user dapat
-berinteraksi dengan objek-objek dalam suasana atau lingkungan 3 dimensi. Perangkat keras
-khusus digunakan untuk memberikan efek pemadangan 3 dimensi dan memampukan user
-berinteraksi dengan objek-objek yang ada dalam lingkungan. Contoh: aplikasi VR parachute
-trainer yang digunakan oleh U.S. Navy untuk latihan terjun payung. Aplikasi ini dapat
-memberikan keuntungan berupa mengurangi resiko cedera selama latihan, mengurangi biaya
-penerbangan, melatih perwira sebelum melakukan terjun payung sesungguhnya."
+                            android:text="@string/materi1_peranan_14_1"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="8dp"
+                                android:layout_height="8dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="18dp"
+                                android:src="@drawable/ic_bullet" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="18dp"
+                                android:lineSpacingMultiplier="1.25"
+                                android:text="@string/materi1_peranan_14_2"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="8dp"
+                                android:layout_height="8dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="18dp"
+                                android:src="@drawable/ic_bullet" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="18dp"
+                                android:lineSpacingMultiplier="1.25"
+                                android:text="@string/materi1_peranan_14_3"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/faceid" />
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="18dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="18dp"
-                            android:layout_marginBottom="8dp"
-                            android:lineSpacingMultiplier="1.25"
-                            android:text="Sedangkan visualisasi data adalah teknik-teknik membuat image, diagram, atau animasi
-untuk mengkomunikasikan pesan. Visualisasi telah menjadi cara yang efektif dalam
-mengkomunikasikan baik data atau ide abstrak maupun nyata sejak permulaan manusia."
+                            android:text="@string/gambar_11"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
-                            android:textSize="16sp" />
+                            android:textSize="12sp"
+                            />
+
                     </LinearLayout>
                 </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
             </RelativeLayout>
@@ -1064,7 +1069,7 @@ mengkomunikasikan baik data atau ide abstrak maupun nyata sejak permulaan manusi
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="Image Processing"
+                    android:text="Graphical User Interface (GUI)"
                     android:gravity="center_vertical"
                     android:textStyle="bold"
                     android:textColor="@color/white"
@@ -1114,106 +1119,24 @@ mengkomunikasikan baik data atau ide abstrak maupun nyata sejak permulaan manusi
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
                             android:lineSpacingMultiplier="1.25"
-                            android:text="Image processing (pengolahan citra) merupakan teknik untuk memodifikasi atau
-menginterpretasi gambar yang ada, seperti foto dan rangkaian gambar film. Dua macam
-prinsip pengolahan citra adalah: Meningkatkan kualitas gambar  dan Memberikan persepsi dari informasi visual, seperti pada robotic."
+                            android:text="@string/materi1_peranan_15"
                             android:textColor="@color/black"
                             android:textSize="16sp" />
-                        <TextView
+                        <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="18dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="18dp"
-                            android:layout_marginBottom="8dp"
-                            android:lineSpacingMultiplier="1.25"
-                            android:text="Untuk melakukan pengolahan citra, pertama-tama membuat digitasi dari foto atau
-membuat foto menjadi file image. Selanjutnya metode digital dapat digunakan untuk
-memodifikasi gambar sehingga mendapatkan kualitas yang baik.
-"
-                            android:textColor="@color/black"
-                            android:textSize="16sp" />
-                    </LinearLayout>
-                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
-            </RelativeLayout>
-            <LinearLayout
-                android:id="@+id/lay11"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:orientation="horizontal"
-                android:background="@drawable/input2">
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:text="11. "
-                    android:textAlignment="center"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:text="Graphical User Interface (GUI)"
-                    android:gravity="center_vertical"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:textSize="16sp"
-                    android:layout_weight="0.5"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginBottom="4dp"
-                    android:src="@drawable/ic_expansion"
-                    tools:ignore="ContentDescription" />
-            </LinearLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
-                    android:id="@+id/expandable11"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:ael_expanded="false"
-                    app:ael_duration="500"
-                    app:ael_interpolator="accelerateDecelerate"
-                    app:ael_orientation="vertical"
-                    tools:ignore="NotSibling">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="8dp"
-                        android:background="@drawable/input4"
-                        android:orientation="vertical">
+                            android:layout_height="170dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/gui" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="18dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="18dp"
-                            android:layout_marginBottom="8dp"
-                            android:lineSpacingMultiplier="1.25"
-                            android:text="Graphical interface (antarmuka grafik) banyak digunakan dalam setiap aplikasi.
-Komponen utamanya adalah window manager, dimana pengguna dapat mengatur tampilan
-dari window. Interface juga menampilkan menu dan icon untuk mempercepat pemilihan yang
-dilakukan oleh pengguna."
+                            android:text="@string/gambar_12"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="20dp"
                             android:textColor="@color/black"
-                            android:textSize="16sp" />
+                            android:textSize="12sp"
+                            />
                     </LinearLayout>
                 </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
             </RelativeLayout>

@@ -14,7 +14,7 @@ import java.util.List;
 public class MateriRecyclerViewAdapter extends RecyclerView.Adapter<MateriRecyclerViewHolder> {
 
     //set tittle
-    String[] subMateri = {"Pengantar Grafika Komputer", "Materi 2", "Materi 3", "Materi 4", "Materi 5"};
+    String[] subMateri = {"Pengantar Grafika Komputer", "Materi 2 Grafika Komputer", "Materi 3 Grafika Komputer", "Materi 4 Grafika Komputer", "Materi 5 Grafika Komputer"};
     private List<Data> dataList;
     MateriFragment context;
     LayoutInflater inflater;
