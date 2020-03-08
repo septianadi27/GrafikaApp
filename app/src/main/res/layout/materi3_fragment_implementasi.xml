@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context="com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SejarahFragment">
+    tools:context="com.pendtium.grafikaapp.ui.materi.Materi3Object2D.ImplementasiFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/materi1_sejarah_judul"
+                    android:text="Implementasi Objek 2 Dimensi"
                     android:gravity="center_vertical"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -52,10 +52,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/input4"
                 android:orientation="vertical">
@@ -68,44 +66,14 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="@string/materi1_sejarah_1"
+                    android:text="Implementasi objek 2 dimensi ini merupakan penjelasan dari penerapan atau fungsi pada objek-objek 2 dimensi."
                     android:textColor="@color/black"
                     android:textSize="16sp" />
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="10dp"
-                    android:src="@drawable/mesir" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Gambar lukisan mesir"
-                    android:textAlignment="center"
-                    android:layout_marginBottom="20dp"
-                    android:textColor="@color/black"
-                    android:textSize="12sp"
-                    />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="8dp"
-                    android:lineSpacingMultiplier="1.25"
-                    android:text="@string/materi1_sejarah_2"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:orientation="horizontal"
@@ -121,27 +89,25 @@
                     android:textColor="@color/white"
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/materi1_sejarah_3"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
                     android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical"
+                    android:text="Fungsi Objek 2 Dimensi"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/input4"
                 android:orientation="vertical">
@@ -150,117 +116,349 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-
                     <ImageView
                         android:layout_width="8dp"
                         android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="18dp"
                         android:src="@drawable/ic_bullet" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_4"
+                        android:text="Segitiga (GL_TRIANGLES)"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-
                     <ImageView
                         android:layout_width="8dp"
                         android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_5"
+                        android:text="#define GL_TRIANGLES, Triangle atau segitiga adalah tiga buah titik yang terhubung menjadi suatu segitiga dengan blok di tengahnya."
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
-
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="130dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/whirlwind" />
+                    android:src="@drawable/gl_triangles"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gambar komputer whirlwind"
+                    android:text="Implementasi GL_TRIANGLES"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     />
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-
                     <ImageView
                         android:layout_width="8dp"
                         android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
                         android:layout_marginEnd="18dp"
                         android:src="@drawable/ic_bullet" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_6"
+                        android:text="Segitiga (GL_TRIANGLES_STRIP)"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-
                     <ImageView
                         android:layout_width="8dp"
                         android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_7"
+                        android:text="#define GL_TRIANGLES_STRIP, Pada triangles strip ini merupakan segitiga yang bergabung pada dua titik terakhir pada segitiga sebelumnya."
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/gl_triangle_strip"
+                    tools:ignore="ContentDescription" />
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementasi GL_TRIANGLES_STRIP"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Segitiga (GL_TRIANGLE_FAN)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="#define GL_TRIANGLE_FAN, Pada triangles fan ini merupakan segitiga yang menggunakan titik pertama sebagai titik pisat dari segitiga-segitiga yang lainnya."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/gl_triangle_fan"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementasi GL_TRIANGLE_FAN"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Segiempat (GL_QUADS)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="#define GL_QUADS, Quad atau segiempat adalah empat buah titik yang terhubung menjadi quat segiempat dengan blok di tengahnya."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/gl_quad"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementasi GL_QUADS"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Segiempat (GL_QUADS_STRIP)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="#define GL_QUADS_STRIP, Pada quads strip ini merupakan segiempat yang bergabung pada dua titik terakhir pada segiempat sebelumnya."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/gl_quad_strip"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementasi GL_QUADS_STRIP"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Poligon (GL_POLYGON)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="#define GL_POLYGON, Polygon merupakan suatu fungsi yang mirip dengan polyline, tetapi menghasilkan kurva tertutup dengan blok warna (fill). Rendering yang dimiliki oleh GL_POLYGON sama dengan GL_TRIANGLE_FAN."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/gl_polygon"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementasi GL_POLYGON"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:orientation="horizontal"
@@ -276,154 +474,6 @@
                     android:textColor="@color/white"
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/materi1_sejarah_8"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="@drawable/input4"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_9"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="10dp"
-                    android:src="@drawable/ivan_sutherland" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Gambar Ivan Sutherland"
-                    android:textAlignment="center"
-                    android:layout_marginBottom="20dp"
-                    android:textColor="@color/black"
-                    android:textSize="12sp"
-                    />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="18dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_10"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_11"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="10dp"
-                    android:src="@drawable/cad_3d" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Gambar 3D CAD"
-                    android:textAlignment="center"
-                    android:layout_marginBottom="20dp"
-                    android:textColor="@color/black"
-                    android:textSize="12sp"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:orientation="horizontal"
-                android:background="@drawable/input2">
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:text="3. "
-                    android:textAlignment="center"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -431,151 +481,62 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"
                     android:gravity="center_vertical"
-                    android:text="@string/materi1_sejarah_12"
+                    android:text="Fungsi Color"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/input4"
                 android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_13"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:orientation="horizontal"
-                android:background="@drawable/input2">
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:text="4. "
-                    android:textAlignment="center"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/materi1_sejarah_14"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
-            </LinearLayout>
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Untuk memberi warna pada objek, seperti titik atau garis, dapat dilakukan dengan menggunakan fungsi: glColor3f(red,green,blue);"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
 
-            <LinearLayout
-                android:id="@+id/linearLayout4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="@drawable/input4"
-                android:orientation="vertical">
-
-                <LinearLayout
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_15"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-
-                <pl.droidsonroids.gif.GifImageView
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Di mana red, green, blue berada pada 0 sampai dengan 1, yang menunjukkan skala pencerahan dari masing-masing skala."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="250dp"
+                    android:layout_height="150dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/solid_modelling"
-                    />
+                    android:src="@drawable/glcolor"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gambar Solid Modelling"
+                    android:text="Contoh penerapan warna menggunakan glColor3f"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_16"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"

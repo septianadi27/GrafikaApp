@@ -109,6 +109,7 @@
     <!--    MATERI 1 - SISTEM    -->
     <string name="materi1_sistem_judul">SISTEM GRAFIKA KOMPUTER</string>
     <string name="materi1_sistem_1"><b><i>Graphics library / package</i></b> (contoh: OpenGL) adalah perantara aplikasi dan <i>display hardware (Graphics System)</i>. <i>Application program</i> memetakan objek aplikasi ke tampilan/citra dengan memanggil <i>graphics library</i>. Hasil dari interaksi user menghasilkan/modifikasi citra.</string>
+    <string name="materi1_sistem_1_1">Penggunaan user mengendalikan isi, struktur, dan kemunculan objek serta menampilkan citra melalui suatu komponen dasar visual feedback.</string>
     <string name="materi1_sistem_2">Komponen dasar sistem grafik interaktif meliputi:</string>
     <string name="materi1_sistem_2_1">Masukan: mouse, tablet, dan stylus, peralatan feedback, scanner, live video stream, dll.</string>
     <string name="materi1_sistem_2_2">Proses dan penyimpanan.</string>
@@ -125,5 +126,8 @@
     <string name="materi1_teknologi_6"><i>Resolution</i>/resolusi, yaitu jumlah maksimum titik yang dapat dihasilkan tanpa tumpang tindih (horizontal x vertikal).</string>
     <string name="materi1_teknologi_7"><i>Aspec ratio</i>, yaitu perbandingan jumlah titik vertikal dan horizontal.</string>
     <string name="materi1_teknologi_8"><i>Pixel</i>, yaitu satu titik di layar monitor.</string>
+
+    <!--    MATERI 2 - DEFINISI    -->
+
 
 </resources>

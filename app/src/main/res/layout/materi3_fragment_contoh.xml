@@ -1,10 +1,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/relativeLayout3"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context="com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SistemFragment">
+    tools:context="com.pendtium.grafikaapp.ui.materi.Materi3Object2D.ContohFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/materi1_sistem_judul"
+                    android:text="Contoh Program Primitif Objek"
                     android:gravity="center_vertical"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -52,67 +52,118 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/input4"
                 android:orientation="vertical">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Contoh Program Triangles"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:layout_margin="10dp"
-                    android:paddingTop="20dp"
-                    android:src="@drawable/opengl_logo"
+                    android:src="@drawable/contoh_kincir"
                     tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Logo OpenGL"
+                    android:text="Program GL_TRIANGLES"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     />
-
-                <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="18dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="18dp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.25"
-                android:text="@string/materi1_sistem_1"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_kincir"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="8dp"
-                    android:lineSpacingMultiplier="1.25"
-                    android:text="@string/materi1_sistem_1_1"
+                    android:text="Syntax GL_TRIANGLES"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Contoh Program Quads"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/contoh_quads"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="18dp"
-                    android:lineSpacingMultiplier="1.25"
-                    android:text="@string/materi1_sistem_2"
+                    android:text="Program GL_QUADS"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="12sp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_quads"
+                    tools:ignore="ContentDescription" />
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Syntax GL_QUADS"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -130,101 +181,45 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sistem_2_1"
+                        android:text="Contoh Program Polygon"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
-                <LinearLayout
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/contoh_polygon"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sistem_2_2"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sistem_2_3"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
+                    android:text="Program GL_POLYGON"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="335dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/komponen_citra_digital" />
+                    android:src="@drawable/syntax_polygon"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sistem Pengolah Citra Digital"
+                    android:text="Syntax GL_POLYGON"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="18dp"
-                    android:lineSpacingMultiplier="1.25"
-                    android:text="@string/materi1_sistem_3"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:src="@drawable/kerangka_komputer_interaktif" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Kerangka Grafik Komputer Interaktif"
-                    android:textAlignment="center"
-                    android:layout_marginBottom="20dp"
-                    android:textColor="@color/black"
-                    android:textSize="12sp"
-                    />
-
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -248,9 +243,7 @@
                     android:textColor="@color/black"
                     android:textSize="16sp" />
             </LinearLayout>
-
         </LinearLayout>
-
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

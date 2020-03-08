@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context="com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SejarahFragment">
+    tools:context="com.pendtium.grafikaapp.ui.materi.Materi2Primitive.ImplementasiFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/materi1_sejarah_judul"
+                    android:text="Implementasi Primitif Objek"
                     android:gravity="center_vertical"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -52,60 +52,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/input4"
                 android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="8dp"
-                    android:lineSpacingMultiplier="1.25"
-                    android:text="@string/materi1_sejarah_1"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="10dp"
-                    android:src="@drawable/mesir" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Gambar lukisan mesir"
-                    android:textAlignment="center"
-                    android:layout_marginBottom="20dp"
-                    android:textColor="@color/black"
-                    android:textSize="12sp"
-                    />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="8dp"
-                    android:lineSpacingMultiplier="1.25"
-                    android:text="@string/materi1_sejarah_2"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginBottom="8dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Implementasi primitif objek ini merupakan penjelasan dari penerapan atau fungsi pada primitif objek."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
 
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:orientation="horizontal"
@@ -121,146 +89,101 @@
                     android:textColor="@color/white"
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/materi1_sejarah_3"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
                     android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical"
+                    android:text="Sistem Koordinat OpenGL"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/input4"
                 android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_4"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="18dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_5"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/whirlwind" />
+                    android:src="@drawable/sistem_koordinat_opengl"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gambar komputer whirlwind"
+                    android:text="Kanvas sistem koordinat OpenGL"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     />
 
-                <LinearLayout
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="18dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_6"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-
-                <LinearLayout
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Sistem Koordinat OpenGL secara default memiliki suatu ukuran seperti pada gambar diatas yaitu memiliki panjang sebesar 640 pixel dan lebar 480 pixel, serta ukuran kanvas sebesar 100x100 pixel."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Kita dapat mengatur ukuran kanvas sesuai sengan yang kita inginkan dengan menggunakan fungsi gluOrtho2D."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Fungsi gluOrtho2D(left,right,bottom,top)"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
 
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/fungsi_gluortho2d"
+                    tools:ignore="ContentDescription" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_7"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="gluOrtho2D(-320,320,-240,240)"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
 
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:orientation="horizontal"
@@ -276,136 +199,174 @@
                     android:textColor="@color/white"
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/materi1_sejarah_8"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
                     android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical"
+                    android:text="Fungsi Dasar Menggambar Titik (glVertex)"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/input4"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Fungsi dasar menggambar titik. Berikut adalah beberapa fungsi didalam menggambar suatu
+                    titik, antara lain:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-
                     <ImageView
                         android:layout_width="8dp"
                         android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="18dp"
                         android:src="@drawable/ic_bullet" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_9"
+                        android:text="glVertex2i (x,y)"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="10dp"
-                    android:src="@drawable/ivan_sutherland" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Gambar Ivan Sutherland"
-                    android:textAlignment="center"
-                    android:layout_marginBottom="20dp"
-                    android:textColor="@color/black"
-                    android:textSize="12sp"
-                    />
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-
                     <ImageView
                         android:layout_width="8dp"
                         android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_10"
+                        android:text="Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa integer. Contoh glVertex2i (10,10)"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-
                     <ImageView
                         android:layout_width="8dp"
                         android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
                         android:layout_marginEnd="18dp"
                         android:src="@drawable/ic_bullet" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_11"
+                        android:text="glVertex2f (x,y)"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
-
-                <ImageView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="10dp"
-                    android:src="@drawable/cad_3d" />
-
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa float. Contoh glVertex2f (10.0,10.0)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="glVertex2d (x,y)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa double. Contoh glVertex2d (10.0,10.0)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gambar 3D CAD"
-                    android:textAlignment="center"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text=" "
                     android:textColor="@color/black"
-                    android:textSize="12sp"
-                    />
-
+                    android:textSize="16sp" />
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -431,21 +392,18 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"
                     android:gravity="center_vertical"
-                    android:text="@string/materi1_sejarah_12"
+                    android:text="Fungsi Primitive Objek Dasar"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/input4"
                 android:orientation="vertical">
@@ -454,129 +412,233 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_13"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:orientation="horizontal"
-                android:background="@drawable/input2">
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:text="4. "
-                    android:textAlignment="center"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/materi1_sejarah_14"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="@drawable/input4"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
                     <ImageView
                         android:layout_width="8dp"
                         android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="18dp"
                         android:src="@drawable/ic_bullet" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_15"
+                        android:text="Titik (GL_POINTS)"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
-
-                <pl.droidsonroids.gif.GifImageView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="#define GL_POINTS, Primitif objek ini dipergunakan untuk menciptakan suatu titik."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/solid_modelling"
-                    />
+                    android:src="@drawable/gl_points"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gambar Solid Modelling"
+                    android:text="Implementasi GL_POINTS"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Garis (GL_LINES)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="#define GL_LINES, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/gl_lines"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementasi GL_LINES"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Garis (GL_LINE_STRIP)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="#define GL_LINE_STRIP, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis yang saling berhubungan antar titik yang stdah ditentukan sesuai dengan banyaknya titik."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/gl_line_strip"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementasi GL_LINE_STRIP"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Garis (GL_LINE_LOOP)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="#define GL_LINE_LOOP, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis yang saling berhubungan antar titik yang stdah ditentukan sesuai dengan banyaknya titik dan pada titik akhir akan menciptakan garis yang berhubungan pada titik pertama."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/gl_line_loop"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementasi GL_LINE_LOOP"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="18dp"
-                        android:src="@drawable/ic_bullet" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
-                        android:lineSpacingMultiplier="1.25"
-                        android:text="@string/materi1_sejarah_16"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-                </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
