@@ -128,6 +128,36 @@
     <string name="materi1_teknologi_8"><i>Pixel</i>, yaitu satu titik di layar monitor.</string>
 
     <!--    MATERI 2 - DEFINISI    -->
+    <string name="materi2_tujuan">Tujuan</string>
+    <string name="materi2_tujuan_1">Memahami jenis-jenis primitive objects.</string>
+    <string name="materi2_tujuan_2">Memahami dan dapat membuat objek primitif.</string>
+    <string name="materi2_tujuan_3">Memahami penerapan Objek primitif menjadi bangun 2 dimensi dasar.</string>
+    <string name="materi2_tujuan_4">Memahami dan dapat membuat fungsi untuk bangun 2 dimensi dasar.</string>
+    <string name="materi2_definisi_judul">Definisi Primitif Objek</string>
+    <string name="materi2_definisi_1">Primitif objek adalah sebuah obyek dasar dari pembentukan obyek lain yang lebih kompleks dari obyek primitive. Contoh primitive objek grafika dasar antara lain: titik, garis, kurva, fill area dan text. Dikatakan sebagai obyek primitif karea merupakan bentuk yang sangat mendasar sebagai objek dalam pendeklarasian.</string>
+    <string name="materi2_definisi_2">OpengGL menyediakan banyak fungsi untuk objek primitif termasuk titik, garis dan sebagainya. Masing-masing perintah atau fungsi dalam OpenGL mempunyai format dan struktur yang sama. Ini memudahkan untuk mengetahui bagaimana jalannya fungsi, argumen yang dibutuhkan untuk melakukannya dan format tipe datanya.</string>
+    <string name="materi2_definisi_3">Primitive grafis yang umum dijelaskan pada tabel berikut:</string>
+    <string name="materi2_definisi_4">Beberapa obyek grafika komputer yang termasuk dalam kategori primitive object adalah sebagai berikut :</string>
+    <string name="materi2_definisi_5">Merupakan sebuah fungsi pada grafika komputer yang menghasilkan output obyek sebuah titik. Pendeklarasian obyek point adalah dengan fungsi GL_POINTS. Titik tersebut dapat disesuaikan ukurannya dengan mendeklarasikan fungsi glPointSize(int size);.</string>
+    <string name="materi2_definisi_6">Merupakan sebuah fungsi pada grafika komputer yang menghasilkan output berupa sebuah garis. Ada beberapa jenis garis yang bisa dibuat, yaitu garis tunggal yang dideklarasikan dengan GL_LINES, kemudian garis terhubung (terbuka) yaitu dengan GL_LINE_STRIP, dan garis terhubung penuh (tertutup) menggunakan GL_LINE_LOOP. Ketiga jenis garis tersebut bisa ditentukan ukurannya dengan mendeklarasikan sebuah fungsi, yaitu glLineWidth(int value);.</string>
+
+    <!--    MATERI 2 - IMPLEMENTASI    -->
+    <string name="materi2_implementasi_judul">Implementasi Primitif Objek</string>
+    <string name="materi2_implementasi_1">Implementasi primitif objek ini merupakan penjelasan dari penerapan atau fungsi pada primitif objek.</string>
+    <string name="materi2_implementasi_2">Sistem Koordinat OpenGL secara default memiliki suatu ukuran seperti pada gambar diatas yaitu memiliki panjang sebesar 640 pixel dan lebar 480 pixel, serta ukuran kanvas sebesar 100x100 pixel.</string>
+    <string name="materi2_implementasi_3">Kita dapat mengatur ukuran kanvas sesuai sengan yang kita inginkan dengan menggunakan fungsi gluOrtho2D.</string>
+    <string name="materi2_implementasi_4">Fungsi gluOrtho2D(left,right,bottom,top)</string>
+    <string name="materi2_implementasi_5">Fungsi dasar menggambar titik. Berikut adalah beberapa fungsi didalam menggambar suatu titik, antara lain:</string>
+    <string name="materi2_implementasi_6">glVertex2i (x,y)</string>
+    <string name="materi2_implementasi_7">Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa integer. Contoh glVertex2i (10,10)</string>
+    <string name="materi2_implementasi_8">glVertex2f (x,y)</string>
+    <string name="materi2_implementasi_9">Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa float. Contoh glVertex2f (10.0,10.0)</string>
+    <string name="materi2_implementasi_10">glVertex2d (x,y)</string>
+    <string name="materi2_implementasi_11">Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa double. Contoh glVertex2d (10.0,10.0)</string>
+    <string name="materi2_implementasi_12">#define GL_POINTS, Primitif objek ini dipergunakan untuk menciptakan suatu titik.</string>
+    <string name="materi2_implementasi_13">#define GL_LINES, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis.</string>
+    <string name="materi2_implementasi_14">#define GL_LINE_STRIP, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis yang saling berhubungan antar titik yang stdah ditentukan sesuai dengan banyaknya titik.</string>
+    <string name="materi2_implementasi_15">#define GL_LINE_LOOP, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis yang saling berhubungan antar titik yang stdah ditentukan sesuai dengan banyaknya titik dan pada titik akhir akan menciptakan garis yang berhubungan pada titik pertama.</string>
 
 
 </resources>

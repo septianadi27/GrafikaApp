@@ -258,15 +258,9 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="525dp"
+                    android:layout_height="700dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/syntax_star1"
-                    tools:ignore="ContentDescription" />
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="155dp"
-                    android:layout_margin="10dp"
-                    android:src="@drawable/syntax_star2"
+                    android:src="@drawable/syntax_star"
                     tools:ignore="ContentDescription" />
 
                 <TextView

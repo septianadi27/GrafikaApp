@@ -37,7 +37,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Tujuan"
+                    android:text="@string/materi2_tujuan"
                     android:gravity="center_vertical"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -85,7 +85,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="2dp"
-                        android:text="Memahami jenis-jenis primitive objects."
+                        android:text="@string/materi2_tujuan_1"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -108,7 +108,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="2dp"
-                        android:text="Memahami dan dapat membuat objek primitif."
+                        android:text="@string/materi2_tujuan_2"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -131,7 +131,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="2dp"
-                        android:text="Memahami penerapan Objek primitif menjadi bangun 2 dimensi dasar."
+                        android:text="@string/materi2_tujuan_3"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -155,7 +155,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="2dp"
-                        android:text="Memahami dan dapat membuat fungsi untuk bangun 2 dimensi dasar."
+                        android:text="@string/materi2_tujuan_4"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -180,16 +180,17 @@
                     android:src="@drawable/library_books"
                     android:tint="@color/white"
                     tools:ignore="ContentDescription" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Definisi Primitif Objek"
-                    android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
                     android:layout_marginStart="8dp"
-                    android:layout_marginBottom="4dp"/>
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/materi2_definisi_judul"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -211,7 +212,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Primitif objek adalah sebuah obyek dasar dari pembentukan obyek lain yang lebih kompleks dari obyek primitive. Contoh primitive objek grafika dasar antara lain: titik, garis, kurva, fill area dan text. Dikatakan sebagai obyek primitif karea merupakan bentuk yang sangat mendasar sebagai objek dalam pendeklarasian."
+                    android:text="@string/materi2_definisi_1"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -241,7 +242,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="OpengGL menyediakan banyak fungsi untuk objek primitif termasuk titik, garis dan sebagainya. Masing-masing perintah atau fungsi dalam OpenGL mempunyai format dan struktur yang sama. Ini memudahkan untuk mengetahui bagaimana jalannya fungsi, argumen yang dibutuhkan untuk melakukannya dan format tipe datanya."
+                    android:text="@string/materi2_definisi_2"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -270,7 +271,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Primitive grafis yang umum dijelaskan pada tabel berikut:"
+                    android:text="@string/materi2_definisi_3"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -291,7 +292,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Beberapa obyek grafika komputer yang termasuk dalam kategori primitive object adalah sebagai berikut :"
+                    android:text="@string/materi2_definisi_4"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -346,7 +347,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Merupakan sebuah fungsi pada grafika komputer yang menghasilkan output obyek sebuah titik. Pendeklarasian obyek point adalah dengan fungsi GL_POINTS. Titik tersebut dapat disesuaikan ukurannya dengan mendeklarasikan fungsi glPointSize(int size);."
+                    android:text="@string/materi2_definisi_5"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
                 <ImageView
@@ -418,7 +419,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Merupakan sebuah fungsi pada grafika komputer yang menghasilkan output berupa sebuah garis. Ada beberapa jenis garis yang bisa dibuat, yaitu garis tunggal yang dideklarasikan dengan GL_LINES, kemudian garis terhubung (terbuka) yaitu dengan GL_LINE_STRIP, dan garis terhubung penuh (tertutup) menggunakan GL_LINE_LOOP. Ketiga jenis garis tersebut bisa ditentukan ukurannya dengan mendeklarasikan sebuah fungsi, yaitu glLineWidth(int value);."
+                    android:text="@string/materi2_definisi_6"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
                 <ImageView

@@ -38,7 +38,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Implementasi Primitif Objek"
+                    android:text="@string/materi2_implementasi_judul"
                     android:gravity="center_vertical"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -66,7 +66,7 @@
                         android:layout_marginEnd="18dp"
                         android:layout_marginBottom="8dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="Implementasi primitif objek ini merupakan penjelasan dari penerapan atau fungsi pada primitif objek."
+                        android:text="@string/materi2_implementasi_1"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
 
@@ -137,7 +137,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Sistem Koordinat OpenGL secara default memiliki suatu ukuran seperti pada gambar diatas yaitu memiliki panjang sebesar 640 pixel dan lebar 480 pixel, serta ukuran kanvas sebesar 100x100 pixel."
+                    android:text="@string/materi2_implementasi_2"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
                 <TextView
@@ -148,7 +148,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Kita dapat mengatur ukuran kanvas sesuai sengan yang kita inginkan dengan menggunakan fungsi gluOrtho2D."
+                    android:text="@string/materi2_implementasi_3"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
                 <TextView
@@ -159,7 +159,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Fungsi gluOrtho2D(left,right,bottom,top)"
+                    android:text="@string/materi2_implementasi_4"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -230,8 +230,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Fungsi dasar menggambar titik. Berikut adalah beberapa fungsi didalam menggambar suatu
-                    titik, antara lain:"
+                    android:text="@string/materi2_implementasi_5"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
                 <LinearLayout
@@ -251,7 +250,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="glVertex2i (x,y)"
+                        android:text="@string/materi2_implementasi_6"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -271,7 +270,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa integer. Contoh glVertex2i (10,10)"
+                        android:text="@string/materi2_implementasi_7"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -292,7 +291,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="glVertex2f (x,y)"
+                        android:text="@string/materi2_implementasi_8"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -312,7 +311,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa float. Contoh glVertex2f (10.0,10.0)"
+                        android:text="@string/materi2_implementasi_9"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -333,7 +332,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="glVertex2d (x,y)"
+                        android:text="@string/materi2_implementasi_10"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -353,7 +352,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="Yaitu suatu fungsi untuk menggambar titik pada koordinat x dan y, dengan nilai satuan berupa double. Contoh glVertex2d (10.0,10.0)"
+                        android:text="@string/materi2_implementasi_11"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -445,7 +444,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="#define GL_POINTS, Primitif objek ini dipergunakan untuk menciptakan suatu titik."
+                        android:text="@string/materi2_implementasi_12"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -502,7 +501,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="#define GL_LINES, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis."
+                        android:text="@string/materi2_implementasi_13"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -559,7 +558,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="#define GL_LINE_STRIP, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis yang saling berhubungan antar titik yang stdah ditentukan sesuai dengan banyaknya titik."
+                        android:text="@string/materi2_implementasi_14"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -616,7 +615,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="18dp"
                         android:lineSpacingMultiplier="1.25"
-                        android:text="#define GL_LINE_LOOP, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis yang saling berhubungan antar titik yang stdah ditentukan sesuai dengan banyaknya titik dan pada titik akhir akan menciptakan garis yang berhubungan pada titik pertama."
+                        android:text="@string/materi2_implementasi_15"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
                 </LinearLayout>
