@@ -35,26 +35,35 @@ public class PetunjukIntroActivity extends IntroActivity {
         }
 
         addSlide(new SimpleSlide.Builder()
-                .title("Tittle 1")
-                .description("Description 1")
-                .image(R.drawable.whatsapp)
+                .description("Tampilan Ketika Aplikasi Pertama Berjalan")
+                .image(R.drawable.petunjuk_1)
                 .background(R.color.color_grey)
                 .backgroundDark(R.color.color_dark_grey)
                 .canGoBackward(false)
                 .build());
 
         addSlide(new SimpleSlide.Builder()
-                .title("Tittle 2")
-                .description("Description 2")
-                .image(R.drawable.github)
+                .description("Tampilan Menu Navigasi")
+                .image(R.drawable.petunjuk_2)
                 .background(R.color.color_grey)
                 .backgroundDark(R.color.color_dark_grey)
                 .build());
 
         addSlide(new SimpleSlide.Builder()
-                .title("Tittle 3")
-                .description("Description 3")
-                .image(R.drawable.email)
+                .description("Tampilan Halaman Materi untuk Memilih Materi")
+                .image(R.drawable.petunjuk_3)
+                .background(R.color.color_grey)
+                .backgroundDark(R.color.color_dark_grey)
+                .build());
+        addSlide(new SimpleSlide.Builder()
+                .description("Tampilan dalam Materi Beserta Sub-Materi")
+                .image(R.drawable.petunjuk_4)
+                .background(R.color.color_grey)
+                .backgroundDark(R.color.color_dark_grey)
+                .build());
+        addSlide(new SimpleSlide.Builder()
+                .description("Tampilan Menu Video yang terdapat Materi Berupa Video")
+                .image(R.drawable.petunjuk_5)
                 .background(R.color.color_grey)
                 .backgroundDark(R.color.color_dark_grey)
                 .build());

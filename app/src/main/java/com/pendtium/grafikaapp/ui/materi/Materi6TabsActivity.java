@@ -14,6 +14,9 @@ import com.pendtium.grafikaapp.R;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.PengertianFragment;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.PerananFragment;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SejarahFragment;
+import com.pendtium.grafikaapp.ui.materi.Materi6Object3D.ContohFragment;
+import com.pendtium.grafikaapp.ui.materi.Materi6Object3D.DefinisiFragment;
+import com.pendtium.grafikaapp.ui.materi.Materi6Object3D.ImplementasiFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,16 +44,9 @@ public class Materi6TabsActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         Materi6TabsActivity.ViewPagerAdapter adapter = new Materi6TabsActivity.ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFrag(new PengertianFragment(), "ONE");
-        adapter.addFrag(new SejarahFragment(), "TWO");
-        adapter.addFrag(new PerananFragment(), "THREE");
-        //adapter.addFrag(new SistemFragment(), "FOUR");
-        //adapter.addFrag(new TeknologiFragment(), "FIVE");
-        //adapter.addFrag(new SixFragment(), "SIX");
-        //adapter.addFrag(new SevenFragment(), "SEVEN");
-        //adapter.addFrag(new EightFragment(), "EIGHT");
-        //adapter.addFrag(new NineFragment(), "NINE");
-        //adapter.addFrag(new TenFragment(), "TEN");
+        adapter.addFrag(new DefinisiFragment(), "Definisi");
+        adapter.addFrag(new ImplementasiFragment(), "Implementasi");
+        adapter.addFrag(new ContohFragment(), "Contoh Program");
         viewPager.setAdapter(adapter);
     }
 

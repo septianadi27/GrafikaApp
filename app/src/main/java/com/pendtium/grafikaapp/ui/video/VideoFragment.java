@@ -28,7 +28,7 @@ public class VideoFragment extends Fragment {
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutManager);
 
-        String[] videoIds = {"3ymwOvzhwHs", "kOHB85vDuow", "Fm5iP0S1z9w", "UZRvsNXDKBk", "XHaAQBCz4R8"};
+        String[] videoIds = {"gQLDKsEh9RY", "rAyo-z3GI40", "YnEWARtswKA", "WZSev3wyMA4", "-k5033OJbpg", "s63GBXkFtj4"};
 
         RecyclerView.Adapter recyclerViewAdapter = new RecyclerViewAdapter(videoIds, this.getLifecycle());
         recyclerView.setAdapter(recyclerViewAdapter);

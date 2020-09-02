@@ -1,4 +1,4 @@
-package com.pendtium.grafikaapp.ui.materi.Materi4Fragment;
+package com.pendtium.grafikaapp.ui.materi.Materi6Object3D;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import androidx.fragment.app.Fragment;
 
 import com.pendtium.grafikaapp.R;
 
-public class OneFragment extends Fragment {
+public class ContohFragment extends Fragment {
 
-    public OneFragment() {
+    public ContohFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class OneFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.materi1_fragment_pengertian, container, false);
+        return inflater.inflate(R.layout.materi6_fragment_contoh, container, false);
     }
 
 }
