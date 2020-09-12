@@ -81,7 +81,7 @@
                     android:layout_below="@id/laytujuan"
                     app:ael_expanded="true"
                     app:ael_duration="500"
-                    app:ael_interpolator="bounce"
+                    app:ael_interpolator="accelerate"
                     app:ael_orientation="vertical"
                     tools:ignore="NotSibling">
                     <LinearLayout
@@ -173,7 +173,7 @@
                     android:layout_below="@id/laytujuan"
                     app:ael_duration="500"
                     app:ael_expanded="false"
-                    app:ael_interpolator="bounce"
+                    app:ael_interpolator="accelerate"
                     app:ael_orientation="vertical"
                     tools:ignore="NotSibling">
 

@@ -44,11 +44,15 @@
                 android:layout_marginBottom="4dp"/>
         </LinearLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_view"
-            android:scrollbars="vertical"
+            android:id="@+id/recylerview_photos"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8dp" />
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="8dp"
+            android:nestedScrollingEnabled="true"
+            android:padding="2dp" >
+        </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

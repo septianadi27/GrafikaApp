@@ -68,6 +68,62 @@
             android:parentActivityName=".ui.materi.Materi6TabsActivity">
         </activity>
         <activity
+            android:name=".ui.video.Video1Activity"
+            android:label="Pengenalan GLUT"
+            android:theme="@style/MyMaterialTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".ui.video.Video1Activity">
+        </activity>
+        <activity
+            android:name=".ui.video.Video2Activity"
+            android:label="Primitive Objects dan Objek 2 Dimensi"
+            android:theme="@style/MyMaterialTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".ui.video.Video2Activity">
+        </activity>
+        <activity
+            android:name=".ui.video.Video3Activity"
+            android:label="Transformasi dan Animasi Objek 2D"
+            android:theme="@style/MyMaterialTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".ui.video.Video3Activity">
+        </activity>
+        <activity
+            android:name=".ui.video.Video4Activity"
+            android:label="Interaksi Keyboard"
+            android:theme="@style/MyMaterialTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".ui.video.Video4Activity">
+        </activity>
+        <activity
+            android:name=".ui.video.Video5Activity"
+            android:label="Menggambar Objek 3D"
+            android:theme="@style/MyMaterialTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".ui.video.Video5Activity">
+        </activity>
+        <activity
+            android:name=".ui.video.Video6Activity"
+            android:label="Implementasi Lighting pada Lorong 3D"
+            android:theme="@style/MyMaterialTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".ui.video.Video6Activity">
+        </activity>
+        <activity
+            android:name=".ui.video.Video7Activity"
+            android:label="Texture Mapping pada Bangun 3D"
+            android:theme="@style/MyMaterialTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".ui.video.Video7Activity">
+        </activity>
+        <activity
             android:name=".ui.PetunjukPenggunaan.PetunjukIntroActivity"
             android:theme="@style/Theme.Intro"/>
     </application>

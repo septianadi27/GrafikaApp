@@ -11,6 +11,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 import com.pendtium.grafikaapp.R;
+import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.OpenglFragment;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.TeknologiFragment;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.SistemFragment;
 import com.pendtium.grafikaapp.ui.materi.Materi1Pengantar.PengertianFragment;
@@ -48,6 +49,7 @@ public class Materi1TabsActivity extends AppCompatActivity {
         adapter.addFrag(new PerananFragment(), "Peranan & Penggunaan");
         adapter.addFrag(new SistemFragment(), "Sistem");
         adapter.addFrag(new TeknologiFragment(), "Teknologi Display");
+        adapter.addFrag(new OpenglFragment(), "OPENGL dan GLUT");
         viewPager.setAdapter(adapter);
     }
 
