@@ -49,7 +49,7 @@ public class Materi1TabsActivity extends AppCompatActivity {
         adapter.addFrag(new PerananFragment(), "Peranan & Penggunaan");
         adapter.addFrag(new SistemFragment(), "Sistem");
         adapter.addFrag(new TeknologiFragment(), "Teknologi Display");
-        adapter.addFrag(new OpenglFragment(), "OPENGL dan GLUT");
+        adapter.addFrag(new OpenglFragment(), "OPENGL");
         viewPager.setAdapter(adapter);
     }
 
