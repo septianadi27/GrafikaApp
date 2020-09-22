@@ -43,7 +43,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"
                     android:gravity="center_vertical"
-                    android:text="Sejarah OpenGL"
+                    android:text="@string/materi1_opengl_1"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -68,7 +68,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Pada tahun 1982, James H. Clark memulai membuka perusahaan komputer grafis bernama Silicon Graphics Computer System (SGI). Para teknisi SGI membutuhkan cara yang standar spesifikasi untuk pengoperasian dan transformasi 3D, oleh sebab itu mereka mendesain sebuah aplikasi pemrograman antarmuka (API) yang bernama IrisGL."
+                    android:text="@string/materi1_opengl_2"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Foto James H. Clark"
+                    android:text="@string/materi1_opengl_image1"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
@@ -97,7 +97,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="IrisGL ini hanya dapat digunakan pada hardware keluaran dari SGI (tidak bersifat open-standard). Pada saat yang bersamaan, vendor lain termasuk Sun Microsystem, IBM dan Hewlett-Packard juga mengeluarkan produk 3D hardware di pasaran. Mereka menggunakan jenis API lain yang disebut PHIGS. Karena vendor lain juga meluncurkan produk 3D hardware di pasaran, lingkup pemasaran SGI pun menjadi berkurang."
+                    android:text="@string/materi1_opengl_3"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -112,7 +112,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Logo IrisGL"
+                    android:text="@string/materi1_opengl_image2"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
@@ -126,7 +126,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Untuk kembali mendongkrak penjualan produk mereka ke pasaran, akhirnya SGI mengubah IrisGL menjadi open-standard. Namun akrena alasan lisensi dan hak paten, mereka tidak dapat meluncurkan IrisGL versi open-standard. Akhirnya mereka membuat API baru berbasis IrisGL yang diberi nama OpenGL."
+                    android:text="@string/materi1_opengl_4"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -138,7 +138,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Awalnya, OpenGL didesain untuk digunakan pada pemrograman C/C++, namun seiring dengan berjalannya waktu, OpenGL dapat digunakan pada berbagai jenis bahasa pemrograman seperti, Java, Visual, Basic, Delphi, dan sebagainya."
+                    android:text="@string/materi1_opengl_5"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -170,7 +170,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"
                     android:gravity="center_vertical"
-                    android:text="Pengenalan OpenGL"
+                    android:text="@string/materi1_opengl_6"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -196,7 +196,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="OpenGL adalah sebuah program aplikasi interface (API) yang digunakan untuk mendefinisikan komputer grafis 2D dan 3D. Program lintas-platform API ini umumnya menjadi standar dalam industri komputer dalam interaksi dengan komputer grafis 2D dan 3D. Singkatnya, OpenGL menghilangkan kebutuhan programmer untuk menulis ulang bagian grafis dari sistem setiap terdapat upgrade sistem."
+                    android:text="@string/materi1_opengl_7"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -211,7 +211,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Logo OpenGL"
+                    android:text="@string/materi1_opengl_image3"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
@@ -226,7 +226,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Fungsi dasar dari OpenGL adalah untuk mengeluarkan koleksi perintah khusus atau executable ke sistem operasi. Dengan demikian, program ini bekerja dengan perangkat keras grafis pada hard drive atau sumber tertentu lainnya. Setiap perintah dirancang untuk melakukan tindakan tertentu, atau memulai efek khusus tertentu yang terkait dengan grafis."
+                    android:text="@string/materi1_opengl_8"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -238,7 +238,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="OpenGL adalah suatu spesifikasi grafik yang low-level yang menyediakan fungsi untuk pembuatan grafik primitif termasuk titik, garis, dan lingkaran. OpenGL digunakan untuk keperluan-keperluan pemrograman grafis. OpenGL bersifat open-source, multi-platform dan multi-language serta digunakan mendefinisikan suatu objek, baik objek 2 dimensi maupun objek 3 dimensi. OpenGL juga merupakan suatu antarmuka pemrograman aplikasi (Application Programming Interface) API yang tidak tergantung pada piranti dan platform yang digunakan, sehingga OpenGL dapat berjalan pada berbagai sistem operasi."
+                    android:text="@string/materi1_opengl_9"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -270,7 +270,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"
                     android:gravity="center_vertical"
-                    android:text="Evolusi OpenGL"
+                    android:text="@string/materi1_opengl_10"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -296,7 +296,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Pendahulu openGL adalah IRIS GL dari SGI. Pada mulanya adalah library grafis 2D, yang berevolusi menjadi API program 3D untuk workstation canggih milik perusahaan tersebut."
+                    android:text="@string/materi1_opengl_11"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -311,7 +311,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Logo SGI"
+                    android:text="@string/materi1_opengl_image4"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"
                     android:textColor="@color/black"
@@ -326,7 +326,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="OpenGL adalah hasil dari usaha SGI untuk mengembangkan dan meningkatkan kemampuan portable IRIS. API grafis yang baru akan menawarkan kemampuan IRIS GL tetapi dengan standar yang lebih terbuka, dengan input dari pembuatan hardware lain dan sistem operasi lain, dan akan memudahkan adaptasi ke hardware platform dan sistem operasi lain."
+                    android:text="@string/materi1_opengl_12"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -338,7 +338,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Untuk lebih mempopulerkan openGL, SGI mengijinkan pihak lain untuk mengembangkan standart openGL. Beberapa vendor menyambut hal tersebut dengan membentuk OpenGL Architecture Review Board (ARB). Pendiri openGL adalah SGI, Digital Equepment Corporation, IBM, Intel dan Microsoft, pada tanggal 1 Juli 1992. OpenGL versi 1.0 diperkenalkan."
+                    android:text="@string/materi1_opengl_13"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -350,7 +350,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="8dp"
                     android:lineSpacingMultiplier="1.25"
-                    android:text="Letak openGL dalam aplikasi gambar pada umumnya ketika aplikasi berjalan program tersebut memanggil banyak fungsi, beberapa yang disediakan oleh sistem operasi bahasa pemrograman. Aplikasi windows membuat output pada layar biasanya dengan memanggil sebuah API windows yang disebut Graphics Device Interface, yang memungkinkan sebagai penulisan teks pada sebuah windows, menggambar garis 2D sederhana dan lainnya. Implementasi dari openGL mengambil permintaan grafis dari aplikasi dan membangun sebuah gambar berwarna dari grafis 3D, kemudian memberikan gambar tersebut ke GDI untuk ditampilkan pada layar monitor."
+                    android:text="@string/materi1_opengl_14"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 

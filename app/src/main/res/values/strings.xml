@@ -127,6 +127,26 @@
     <string name="materi1_teknologi_7"><i>Aspec ratio</i>, yaitu perbandingan jumlah titik vertikal dan horizontal.</string>
     <string name="materi1_teknologi_8"><i>Pixel</i>, yaitu satu titik di layar monitor.</string>
 
+    <!--    MATERI 1 - OPENGL    -->
+    <string name="materi1_opengl_1">Sejarah OpenGL</string>
+    <string name="materi1_opengl_2">Pada tahun 1982, James H. Clark memulai membuka perusahaan komputer grafis bernama Silicon Graphics Computer System (SGI). Para teknisi SGI membutuhkan cara yang standar spesifikasi untuk pengoperasian dan transformasi 3D, oleh sebab itu mereka mendesain sebuah aplikasi pemrograman antarmuka (API) yang bernama IrisGL.</string>
+    <string name="materi1_opengl_image1">Foto James H. Clark</string>
+    <string name="materi1_opengl_3">IrisGL ini hanya dapat digunakan pada hardware keluaran dari SGI (tidak bersifat open-standard). Pada saat yang bersamaan, vendor lain termasuk Sun Microsystem, IBM dan Hewlett-Packard juga mengeluarkan produk 3D hardware di pasaran. Mereka menggunakan jenis API lain yang disebut PHIGS. Karena vendor lain juga meluncurkan produk 3D hardware di pasaran, lingkup pemasaran SGI pun menjadi berkurang.</string>
+    <string name="materi1_opengl_image2">Logo IrisGL</string>
+    <string name="materi1_opengl_4">Untuk kembali mendongkrak penjualan produk mereka ke pasaran, akhirnya SGI mengubah IrisGL menjadi open-standard. Namun akrena alasan lisensi dan hak paten, mereka tidak dapat meluncurkan IrisGL versi open-standard. Akhirnya mereka membuat API baru berbasis IrisGL yang diberi nama OpenGL.</string>
+    <string name="materi1_opengl_5">Awalnya, OpenGL didesain untuk digunakan pada pemrograman C/C++, namun seiring dengan berjalannya waktu, OpenGL dapat digunakan pada berbagai jenis bahasa pemrograman seperti, Java, Visual, Basic, Delphi, dan sebagainya.</string>
+    <string name="materi1_opengl_6">Pengenalan OpenGL</string>
+    <string name="materi1_opengl_7">OpenGL adalah sebuah program aplikasi interface (API) yang digunakan untuk mendefinisikan komputer grafis 2D dan 3D. Program lintas-platform API ini umumnya menjadi standar dalam industri komputer dalam interaksi dengan komputer grafis 2D dan 3D. Singkatnya, OpenGL menghilangkan kebutuhan programmer untuk menulis ulang bagian grafis dari sistem setiap terdapat upgrade sistem.</string>
+    <string name="materi1_opengl_8">Fungsi dasar dari OpenGL adalah untuk mengeluarkan koleksi perintah khusus atau executable ke sistem operasi. Dengan demikian, program ini bekerja dengan perangkat keras grafis pada hard drive atau sumber tertentu lainnya. Setiap perintah dirancang untuk melakukan tindakan tertentu, atau memulai efek khusus tertentu yang terkait dengan grafis.</string>
+    <string name="materi1_opengl_9">OpenGL adalah suatu spesifikasi grafik yang low-level yang menyediakan fungsi untuk pembuatan grafik primitif termasuk titik, garis, dan lingkaran. OpenGL digunakan untuk keperluan-keperluan pemrograman grafis. OpenGL bersifat open-source, multi-platform dan multi-language serta digunakan mendefinisikan suatu objek, baik objek 2 dimensi maupun objek 3 dimensi. OpenGL juga merupakan suatu antarmuka pemrograman aplikasi (Application Programming Interface) API yang tidak tergantung pada piranti dan platform yang digunakan, sehingga OpenGL dapat berjalan pada berbagai sistem operasi.</string>
+    <string name="materi1_opengl_10">Evolusi OpenGL</string>
+    <string name="materi1_opengl_11">Pendahulu openGL adalah IRIS GL dari SGI. Pada mulanya adalah library grafis 2D, yang berevolusi menjadi API program 3D untuk workstation canggih milik perusahaan tersebut.</string>
+    <string name="materi1_opengl_12">OpenGL adalah hasil dari usaha SGI untuk mengembangkan dan meningkatkan kemampuan portable IRIS. API grafis yang baru akan menawarkan kemampuan IRIS GL tetapi dengan standar yang lebih terbuka, dengan input dari pembuatan hardware lain dan sistem operasi lain, dan akan memudahkan adaptasi ke hardware platform dan sistem operasi lain.</string>
+    <string name="materi1_opengl_13">Untuk lebih mempopulerkan openGL, SGI mengijinkan pihak lain untuk mengembangkan standart openGL. Beberapa vendor menyambut hal tersebut dengan membentuk OpenGL Architecture Review Board (ARB). Pendiri openGL adalah SGI, Digital Equepment Corporation, IBM, Intel dan Microsoft. pada tanggal 1 Juli 1992, OpenGL versi 1.0 diperkenalkan.</string>
+    <string name="materi1_opengl_14">Letak openGL dalam aplikasi gambar pada umumnya ketika aplikasi berjalan program tersebut memanggil banyak fungsi, beberapa yang disediakan oleh sistem operasi bahasa pemrograman. Aplikasi windows membuat output pada layar biasanya dengan memanggil sebuah API windows yang disebut Graphics Device Interface, yang memungkinkan sebagai penulisan teks pada sebuah windows, menggambar garis 2D sederhana dan lainnya. Implementasi dari openGL mengambil permintaan grafis dari aplikasi dan membangun sebuah gambar berwarna dari grafis 3D, kemudian memberikan gambar tersebut ke GDI untuk ditampilkan pada layar monitor.</string>
+    <string name="materi1_opengl_image3">Logo OpenGL</string>
+    <string name="materi1_opengl_image4">Logo SGI</string>
+
     <!--    MATERI 2 - DEFINISI    -->
     <string name="materi2_tujuan">Tujuan</string>
     <string name="materi2_tujuan_1">Memahami jenis-jenis primitive objects.</string>
@@ -159,5 +179,9 @@
     <string name="materi2_implementasi_14">#define GL_LINE_STRIP, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis yang saling berhubungan antar titik yang stdah ditentukan sesuai dengan banyaknya titik.</string>
     <string name="materi2_implementasi_15">#define GL_LINE_LOOP, Primitif objek ini adalah suatu primitive objek guna menciptakan suatu garis yang saling berhubungan antar titik yang stdah ditentukan sesuai dengan banyaknya titik dan pada titik akhir akan menciptakan garis yang berhubungan pada titik pertama.</string>
 
+    <!--    MATERI 3 - DEFINISI    -->
+
+
+    <!--    MATERI 3 - IMPLEMENTASI    -->
 
 </resources>

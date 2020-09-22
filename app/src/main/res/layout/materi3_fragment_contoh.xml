@@ -38,7 +38,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Contoh Program Primitif Objek"
+                    android:text="Contoh Program Objek 2D"
                     android:gravity="center_vertical"
                     android:textSize="16sp"
                     android:textStyle="bold"
