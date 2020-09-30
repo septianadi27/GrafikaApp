@@ -1,6 +1,1181 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.pendtium.grafikaapp.ui.materi.Materi5Interaksi.ImplementasiFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input2">
+                <ImageView
+                    android:id="@+id/ic_pengantar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/library_books"
+                    android:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Implementasi Transformasi dan Animasi"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="4dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/input4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Implementasi interaksi objek 2D ini merupakan penjelasan dari penerapan atau fungsi pada interaksi objek."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input2">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:text="1. "
+                    android:textAlignment="center"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical"
+                    android:text="Interaksi Keyboard"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/input4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Konsep Input Keyboard pada GLUT-Key Biasa dan Special Key"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Konsep Input Keyboard (General Button)"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="glutKeyboardFunc adalah suatu fungsi callback untuk digunakan sebagai masukan pada aplikasi. Konsepnya pada saat user atau pengguna memberikan input yaitu menekan tombol keyboard, maka setiap tombol keyboard yang ditekan akan menghasilkan suatu karakter ASCII yang akan menghasilkan suatu callback keyboard yang telah didefinisikan berupa fungsi dengan 3 parameter."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/contoh_fungsi_mykeyboard"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contoh Fungsi myKeyboard"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Sintaks tersebut adalah sintak dasar yang digunakan, untuk bisa menggunakan input keyboard maka harus diberikan callback function untuk memanggilnya, Sintaks berikut harus disertakan pada fungsi main."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/callback_function_mykeyboard"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contoh Fungsi Callback Function myKeyboard"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Terdapat juga method lain pada keyboard yang bisa digunakan dalam proses input ini, yaitu:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="1."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Key Press"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Method ini dapat dinamakan keyPressed dan pada GLUT akan terdapat 3 parameter, satu untuk tombol yang saat itu ditekan, dan dua untuk memberitahukan lokasi mouse ketika tombol ditekan."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_keypress"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contoh Fungsi Syntax KeyPress"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Dan fungsi tersebut akan dipanggil pada fungsi main."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_main_keypress"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pemanggilan Fungsi Syntax KeyPress pada fungsi Main"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="2."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Key Up"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Method sama seperti method Key Press tadi yaitu memiliki 3 parameter yang memiliki fungsi yang sama, hanya berbeda pada penamaannya, yaitu: keyUp."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_keyup"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contoh Fungsi Syntax KeyUp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Dan fungsi tersebut akan dipanggil pada fungsi main."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_main_keyup"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pemanggilan Fungsi Syntax KeyUp pada fungsi Main"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="3."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Key Buffering"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Pertama dimulai dengan pendeklarasian sebuah array dari nilai Boolean yang akan menangani masing-masing method keyboard, true untuk tombol yang ditekan, dan false saat tombol dilepaskan."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_bool_keybuffer"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deklarasi Array Bool KeyStates"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="kemudian dilanjutkan dengan pendeklarasian masing-masing method."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_keybuffer"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contoh Fungsi Syntax KeyBuffer"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Dan fungsi tersebut akan dipanggil pada fungsi main."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_main_keybuffer"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pemanggilan Fungsi Syntax KeyBuffer pada fungsi Main"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Konsep Input Keyboard Special Key"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="GlutSpecialFunc merupakan suatu fungsi callback pada OpenGL yang digunakan untuk mengaktifkan tombol-tombol khusus pada keyboard. Pendeklarasiannya adalah :"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/deklarasi_glutspecialfunc"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pendeklarasian glutSpecialFunc"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Nilai-nilai yang tersedia GLUT_KEY_* adalah:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="330dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/specialfunc_key"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Macam SpecialFunc Key"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Contoh pembuatan fungsi callback untuk tombol special keyboard:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_specialfunc"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contoh pembuatan Fungsi Callback Special Keyboard"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Selanjutnya fungsi tersebut akan dipanggil oleh glutDisplayFunc ke dalam fungsi main."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syntax_main_specialfunc"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memanggil Fungsi glutDisplayFunc kedalam Fungsi Main"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input2">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:text="2. "
+                    android:textAlignment="center"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical"
+                    android:text="Interaksi Mouse"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/input4"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Fungsi Dasar Pembuatan Interaksi dengan Menggunakan MouseFunction"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/basic1_mousefunction"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fungsi Dasar Pembuatan Interaksi"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Parameter func adalah fungsi yang akan ditangani dengan event klik mouse."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/basic2_mousefunction"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fungsi Dasar Pembuatan Interaksi"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Fungsi diatas merupakan fungsi pelengkap dari fungsi interaksi mouse untuk mendeteksi gerakan mouse."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Inisialisasi dalam Penggunaan MouseFunction"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/inisialisasi_mousefunction"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Inisialisasi MouseFunction"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Dalam penerapan interaksi mouse pada OpenGL / glut, fungsi inisialisasinya adalah sebagai berikut:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="1."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="GLUT_LEFT_BUTTON"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text=" "
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Fungsi inisialisasi ini bertujuan untuk inisialisasi button mouse kiri."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="2."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="GLUT_RIGHT_BUTTON"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text=" "
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Fungsi inisialisasi ini bertujuan untuk inisialisasi button mouse kanan."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="3."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="GLUT_MIDDLE_BUTTON"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text=" "
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Fungsi inisialisasi ini bertujuan untuk inisialisasi button mouse tengah."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="4."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="GLUT_DOWN"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text=" "
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Fungsi inisialisasi ini adalah untuk inisialisasi ketika tombol mouse ditekan."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="5."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="GLUT_UP"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text=" "
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Fungsi inisialisasi ini adalah untuk inisialisasi ketika tombol mouse dilepaskan."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Kemudian pada main program perlu menambahkan fungsi untuk callback fungsi MouseFunction."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/main_mousefunction"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fungsi MouseFunction pada Main Program."
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="18dp"
+                        android:src="@drawable/ic_bullet" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Sistem Koordinat Interaksi Mouse pada GLUT"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Sistem koordinat interaksi mouse pada glut adalah sebagai berikut. Misalnya ditentukan inisialisasi awal adalah:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/koordinat_mousefunction"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Maka:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="a."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Titik 0,0 berada pada pojok kiri atas, koordinatnya akan berubah apabila terjadi pergeseran mouse."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="b."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Titik 480,0 berada pada pojok kanan atas."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:text="c."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Titik 0,480 berada pada pojok kiri bawah."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="d."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="18dp"
+                        android:lineSpacingMultiplier="1.25"
+                        android:text="Titik 480,480 berada pada pojok kanan bawah."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="20dp"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
