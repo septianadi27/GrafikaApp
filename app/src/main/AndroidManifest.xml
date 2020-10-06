@@ -123,6 +123,20 @@
             android:hardwareAccelerated="true"
             android:parentActivityName=".ui.video.Video7Activity">
         </activity>
+
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis1_pengantar.KuisPengantar" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis2_primitive.KuisPrimitive" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis3_twodimension.KuisTwodimension" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis4_transformasi.KuisTransformasi" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis5_interaksi.KuisInteraksi" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis6_threedimension.KuisThreeDimension" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis1_pengantar.HasilKuisPengantar" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis2_primitive.HasilKuisPrimitive" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis3_twodimension.HasilKuisTwodimension" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis4_transformasi.HasilKuisTransformasi" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis5_interaksi.HasilKuisInteraksi" />
+        <activity android:name="com.pendtium.grafikaapp.ui.kuis.kuis6_threedimension.HasilKuisThreeDimension" />
+
         <activity
             android:name=".ui.PetunjukPenggunaan.PetunjukIntroActivity"
             android:theme="@style/Theme.Intro"/>

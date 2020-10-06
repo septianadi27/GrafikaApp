@@ -62,12 +62,12 @@ public class MateriFragment extends Fragment {
     //set picture menu
     private void data(){
         int[] imageIcon = new int[]{
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash
+                R.drawable.pengantar,
+                R.drawable.primitive,
+                R.drawable.twodimension,
+                R.drawable.transform,
+                R.drawable.interact,
+                R.drawable.threedimension
         };
 
         //set description menu
@@ -80,7 +80,7 @@ public class MateriFragment extends Fragment {
         data = new Data("Grafik komputer 2 dimensi biasa disebut 2D adalah bentuk dari benda ...", imageIcon[2]);
         dataList.add(data);
 
-        data = new Data(" Pemodifikasian objek dilakukan dengan operasi transformasi ...", imageIcon[3]);
+        data = new Data("Pemodifikasian objek dilakukan dengan operasi transformasi ...", imageIcon[3]);
         dataList.add(data);
 
         data = new Data("Interaksi dapat dilakukan dengan berbagai cara, diantaranya  ... ", imageIcon[4]);

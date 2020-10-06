@@ -25,9 +25,9 @@
 
     <fragment
         android:id="@+id/nav_quiz"
-        android:name="com.pendtium.grafikaapp.ui.quiz.QuizFragment"
+        android:name="com.pendtium.grafikaapp.ui.kuis.KuisFragment"
         android:label="@string/menu_quiz"
-        tools:layout="@layout/fragment_quiz" />
+        tools:layout="@layout/fragment_kuis" />
 
     <fragment
         android:id="@+id/nav_petunjuk_penggunaan"

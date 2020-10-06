@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.kuis.kuis1_pengantar.KuisPengantar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/input2"
+                    android:padding="8dp"
+                    android:text="Kuis Object 3D"
+                    android:textColor="@color/mi_icon_color_dark"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/jud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/input2"
+                    android:padding="8dp"
+                    android:textColor="@color/mi_icon_color_dark"
+                    android:textSize="18sp"
+                    tools:ignore="RelativeOverlap" />
+            </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/pertanyaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/input2"
+                    android:paddingStart="24dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="24dp"
+                    android:paddingBottom="40dp"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textColor="@color/mi_icon_color_dark"
+                    android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/line"
+                tools:ignore="ContentDescription" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp">
+
+                    <RadioButton
+                        android:id="@+id/pilihanA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rb_a_selector"
+                        android:button="@android:color/transparent"
+                        android:lineSpacingMultiplier="1.5"
+                        android:checked="false"
+                        android:onClick="onRBClicked"
+                        android:padding="16dp"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/pilihanB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:lineSpacingMultiplier="1.5"
+                        android:background="@drawable/rb_b_selector"
+                        android:button="@android:color/transparent"
+                        android:checked="false"
+                        android:onClick="onRBClicked"
+                        android:padding="16dp"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/pilihanC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:lineSpacingMultiplier="1.5"
+                        android:background="@drawable/rb_c_selector"
+                        android:button="@android:color/transparent"
+                        android:checked="false"
+                        android:onClick="onRBClicked"
+                        android:padding="16dp"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/pilihanD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="80dp"
+                        android:lineSpacingMultiplier="1.5"
+                        android:background="@drawable/rb_d_selector"
+                        android:button="@android:color/transparent"
+                        android:checked="false"
+                        android:onClick="onRBClicked"
+                        android:padding="16dp"
+                        android:textSize="16sp" />
+                </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        tools:ignore="RtlSymmetry">
+
+        <ImageButton
+            android:id="@+id/nxtbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/input2"
+            android:elevation="4dp"
+            android:onClick="next"
+            android:src="@drawable/next"
+            android:textColor="@color/color_darkprime"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -22,6 +23,8 @@ public class PetunjukPenggunaanFragment extends Fragment {
 
         Intent intent = new Intent(getActivity(), PetunjukIntroActivity.class);
         startActivity(intent);
+
+        getFragmentManager().popBackStack();
 
         return inflater.inflate(R.layout.fragment_halaman_utama, container, false);
     }

@@ -57,13 +57,13 @@ public class VideoFragment extends Fragment {
     //set picture menu
     private void data(){
         int[] imageIcon = new int[]{
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash,
-                R.drawable.splash
+                R.drawable.pengantar,
+                R.drawable.twodimension,
+                R.drawable.transform,
+                R.drawable.interact,
+                R.drawable.threedimension,
+                R.drawable.lighting,
+                R.drawable.texture
         };
 
         //set description menu

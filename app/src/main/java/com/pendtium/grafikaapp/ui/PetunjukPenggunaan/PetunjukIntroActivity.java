@@ -67,6 +67,18 @@ public class PetunjukIntroActivity extends IntroActivity {
                 .background(R.color.color_grey)
                 .backgroundDark(R.color.color_dark_grey)
                 .build());
+        addSlide(new SimpleSlide.Builder()
+                .description("Tampilan Menu Kuis yang terdapat pilihan kuis berdasarkan materi")
+                .image(R.drawable.petunjuk_6)
+                .background(R.color.color_grey)
+                .backgroundDark(R.color.color_dark_grey)
+                .build());
+        addSlide(new SimpleSlide.Builder()
+                .description("Tampilan kuis ketika berlansung")
+                .image(R.drawable.petunjuk_7)
+                .background(R.color.color_grey)
+                .backgroundDark(R.color.color_dark_grey)
+                .build());
 
         autoplay(2500, INFINITE);
     }
