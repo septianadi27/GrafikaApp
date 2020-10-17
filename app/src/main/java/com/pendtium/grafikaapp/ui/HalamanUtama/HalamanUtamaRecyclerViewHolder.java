@@ -36,5 +36,35 @@ public class HalamanUtamaRecyclerViewHolder extends RecyclerView.ViewHolder {
         itemList = (LinearLayout) itemView.findViewById(R.id.Lmateri);
         toolbar = (Toolbar) itemView.findViewById(R.id.toolbar);
 
+
+        //Set listener on click menu
+        itemList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                switch (getAdapterPosition()){
+                    case 0 :
+                        intent = new Intent(context, Materi1TabsActivity.class);
+                        break;
+                    case 1 :
+                        intent = new Intent(context, Materi2TabsActivity.class);
+                        break;
+                    case 2 :
+                        intent = new Intent(context, Materi3TabsActivity.class);
+                        break;
+                    case 3 :
+                        intent = new Intent(context, Materi4TabsActivity.class);
+                        break;
+                    case 4 :
+                        intent = new Intent(context, Materi5TabsActivity.class);
+                        break;
+                    case 5 :
+                        intent = new Intent(context, Materi6TabsActivity.class);
+                        break;
+                }
+                context.startActivity(intent);
+            }
+        });
+
     }
 }
